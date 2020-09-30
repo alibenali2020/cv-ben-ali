@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<application-state>
+  <context id="">
+    <application id="snap-store_ubuntu-software.desktop" score="23" last-seen="1601317791"/>
+    <application id="sublime-text_subl.desktop" score="360" last-seen="1601496972"/>
+    <application id="gnome-bluetooth-panel.desktop" score="0" last-seen="0"/>
+    <application id="gnome-session-properties.desktop" score="0" last-seen="1601150899"/>
+    <application id="gnome-initial-setup.desktop" score="4" last-seen="1601150853"/>
+    <application id="firefox.desktop" score="1035" last-seen="1601499015"/>
+    <application id="org.gnome.Terminal.desktop" score="255" last-seen="1601498997"/>
+    <application id="org.gnome.Nautilus.desktop" score="51" last-seen="1601495332"/>
+    <application id="gnome-control-center.desktop" score="20" last-seen="1601495181"/>
+    <application id="discord.desktop" score="176" last-seen="1601490483"/>
+  </context>
+</application-state>

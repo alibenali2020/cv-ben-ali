@@ -1,0 +1,787 @@
+<!DOCTYPE html>
+<html lang="fr-FR" prefix="og: http://ogp.me/ns#">
+<head>
+<meta charset="UTF-8" />
+
+<link rel="profile" href="http://gmpg.org/xfn/11" />
+<link rel="pingback" href="http://pierre-giraud.fr/xmlrpc.php" />
+<meta property="og:title" content="Créer un CV personnalisé et interactif en HTML et en CSS"/>
+<meta property="og:type" content="article"/>
+<meta property="og:description" content="Bonjour à tous ! 
+
+Aujourd’hui, nous allons apprendre à créer un CV totalement personnalisé en HTM..."/>
+<meta property="og:url" content="http://pierre-giraud.fr/creer-un-cv-personnalise-et-interactif-en-html-et-en-css/"/>
+<meta property="og:site_name" content="Pierre Giraud"/>
+<meta property="og:image" content="http://pierre-giraud.fr/wp-content/uploads/2015/01/CV-personnalise-HTML-CSS.png" />
+
+<!-- This site is optimized with the Yoast SEO plugin v12.7.1 - https://yoast.com/wordpress/plugins/seo/ -->
+<title>Créer un CV personnalisé et interactif en HTML et en CSS - Pierre Giraud</title>
+<meta name="description" content="Apprenez à créer un CV totalement personnalisé en HTML et en CSS étape par étape. Supports vidéo et texte disponibles pour ce nouveau tutoriel HTML et CSS"/>
+<meta name="robots" content="max-snippet:-1, max-image-preview:large, max-video-preview:-1"/>
+<link rel="canonical" href="http://pierre-giraud.fr/creer-un-cv-personnalise-et-interactif-en-html-et-en-css/" />
+<meta property="og:locale" content="fr_FR" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="Créer un CV personnalisé et interactif en HTML et en CSS - Pierre Giraud" />
+<meta property="og:description" content="Apprenez à créer un CV totalement personnalisé en HTML et en CSS étape par étape. Supports vidéo et texte disponibles pour ce nouveau tutoriel HTML et CSS" />
+<meta property="og:url" content="http://pierre-giraud.fr/creer-un-cv-personnalise-et-interactif-en-html-et-en-css/" />
+<meta property="og:site_name" content="Pierre Giraud" />
+<meta property="article:tag" content="CV CSS" />
+<meta property="article:tag" content="CV html" />
+<meta property="article:tag" content="CV HTML et CSS" />
+<meta property="article:tag" content="Cv personnalisé" />
+<meta property="article:tag" content="CV personnalisé HTML" />
+<meta property="article:tag" content="CV personnalisé HTML et CSS" />
+<meta property="article:section" content="Programmation" />
+<meta property="article:published_time" content="2015-01-15T15:00:42+00:00" />
+<meta property="article:modified_time" content="2019-06-14T11:36:23+00:00" />
+<meta property="og:updated_time" content="2019-06-14T11:36:23+00:00" />
+<meta property="og:image" content="http://pierre-giraud.fr/wp-content/uploads/2015/01/CV-personnalise-HTML-CSS.png" />
+<meta property="og:image:width" content="300" />
+<meta property="og:image:height" content="300" />
+<script type='application/ld+json' class='yoast-schema-graph yoast-schema-graph--main'>{"@context":"https://schema.org","@graph":[{"@type":"WebSite","@id":"http://pierre-giraud.fr/#website","url":"http://pierre-giraud.fr/","name":"Pierre Giraud","description":"Cours Complets et tutoriels de Programmation, R\u00e9f\u00e9rencement, e-Commerce et e-Marketing","potentialAction":{"@type":"SearchAction","target":"http://pierre-giraud.fr/?s={search_term_string}","query-input":"required name=search_term_string"}},{"@type":"ImageObject","@id":"http://pierre-giraud.fr/creer-un-cv-personnalise-et-interactif-en-html-et-en-css/#primaryimage","url":"http://pierre-giraud.fr/wp-content/uploads/2015/01/CV-personnalise-HTML-CSS.png","width":300,"height":300},{"@type":"WebPage","@id":"http://pierre-giraud.fr/creer-un-cv-personnalise-et-interactif-en-html-et-en-css/#webpage","url":"http://pierre-giraud.fr/creer-un-cv-personnalise-et-interactif-en-html-et-en-css/","inLanguage":"fr-FR","name":"Cr\u00e9er un CV personnalis\u00e9 et interactif en HTML et en CSS - Pierre Giraud","isPartOf":{"@id":"http://pierre-giraud.fr/#website"},"primaryImageOfPage":{"@id":"http://pierre-giraud.fr/creer-un-cv-personnalise-et-interactif-en-html-et-en-css/#primaryimage"},"datePublished":"2015-01-15T15:00:42+00:00","dateModified":"2019-06-14T11:36:23+00:00","author":{"@id":"http://pierre-giraud.fr/#/schema/person/0ebf655797fa94578461cf044815e9cc"},"description":"Apprenez \u00e0 cr\u00e9er un CV totalement personnalis\u00e9 en HTML et en CSS \u00e9tape par \u00e9tape. Supports vid\u00e9o et texte disponibles pour ce nouveau tutoriel HTML et CSS"},{"@type":["Person"],"@id":"http://pierre-giraud.fr/#/schema/person/0ebf655797fa94578461cf044815e9cc","name":"Pierre Giraud","image":{"@type":"ImageObject","@id":"http://pierre-giraud.fr/#authorlogo","url":"http://0.gravatar.com/avatar/3d4dced1142f11372f320dbedb7857b8?s=96&d=monsterid&r=g","caption":"Pierre Giraud"},"description":"N\u00e9 le 25 janvier 1990. Dipl\u00f4m\u00e9 d'un master 2 entrepreneuriat. \r\nPassionn\u00e9 par le web et les start-ups, j'ai beaucoup \u00e9tudi\u00e9 les th\u00e9matiques du r\u00e9f\u00e9rencement et du e-commerce. J'ai travaill\u00e9 pour des bo\u00eetes comme PrestaShop et ai d\u00e9j\u00e0 mont\u00e9 5 entreprises. \r\nAujourd'hui, je mets mes connaissances \u00e0 votre disposition sur mon blog pierre-giraud.fr.","sameAs":[]}]}</script>
+<!-- / Yoast SEO plugin. -->
+
+<link rel='dns-prefetch' href='//fonts.googleapis.com' />
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel="alternate" type="application/rss+xml" title="Pierre Giraud &raquo; Flux" href="http://pierre-giraud.fr/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Pierre Giraud &raquo; Flux des commentaires" href="http://pierre-giraud.fr/comments/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Pierre Giraud &raquo; Créer un CV personnalisé et interactif en HTML et en CSS Flux des commentaires" href="http://pierre-giraud.fr/creer-un-cv-personnalise-et-interactif-en-html-et-en-css/feed/" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/12.0.0-1\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/12.0.0-1\/svg\/","svgExt":".svg","source":{"concatemoji":"http:\/\/pierre-giraud.fr\/wp-includes\/js\/wp-emoji-release.min.js?ver=5.3.2"}};
+			!function(e,a,t){var r,n,o,i,p=a.createElement("canvas"),s=p.getContext&&p.getContext("2d");function c(e,t){var a=String.fromCharCode;s.clearRect(0,0,p.width,p.height),s.fillText(a.apply(this,e),0,0);var r=p.toDataURL();return s.clearRect(0,0,p.width,p.height),s.fillText(a.apply(this,t),0,0),r===p.toDataURL()}function l(e){if(!s||!s.fillText)return!1;switch(s.textBaseline="top",s.font="600 32px Arial",e){case"flag":return!c([127987,65039,8205,9895,65039],[127987,65039,8203,9895,65039])&&(!c([55356,56826,55356,56819],[55356,56826,8203,55356,56819])&&!c([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]));case"emoji":return!c([55357,56424,55356,57342,8205,55358,56605,8205,55357,56424,55356,57340],[55357,56424,55356,57342,8203,55358,56605,8203,55357,56424,55356,57340])}return!1}function d(e){var t=a.createElement("script");t.src=e,t.defer=t.type="text/javascript",a.getElementsByTagName("head")[0].appendChild(t)}for(i=Array("flag","emoji"),t.supports={everything:!0,everythingExceptFlag:!0},o=0;o<i.length;o++)t.supports[i[o]]=l(i[o]),t.supports.everything=t.supports.everything&&t.supports[i[o]],"flag"!==i[o]&&(t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&t.supports[i[o]]);t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&!t.supports.flag,t.DOMReady=!1,t.readyCallback=function(){t.DOMReady=!0},t.supports.everything||(n=function(){t.readyCallback()},a.addEventListener?(a.addEventListener("DOMContentLoaded",n,!1),e.addEventListener("load",n,!1)):(e.attachEvent("onload",n),a.attachEvent("onreadystatechange",function(){"complete"===a.readyState&&t.readyCallback()})),(r=t.source||{}).concatemoji?d(r.concatemoji):r.wpemoji&&r.twemoji&&(d(r.twemoji),d(r.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+	<link rel='stylesheet' id='wp-block-library-css'  href='http://pierre-giraud.fr/wp-includes/css/dist/block-library/style.min.css?ver=5.3.2' type='text/css' media='all' />
+<link rel='stylesheet' id='contact-form-7-css'  href='http://pierre-giraud.fr/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=5.1.6' type='text/css' media='all' />
+<link rel='stylesheet' id='tie-style-css'  href='http://pierre-giraud.fr/wp-content/themes/sahifa/style.css?ver=5.3.2' type='text/css' media='all' />
+<link rel='stylesheet' id='Droid+Sans-css'  href='http://fonts.googleapis.com/css?family=Droid+Sans%3Aregular%2C700&#038;subset=latin%2Clatin-ext&#038;ver=5.3.2' type='text/css' media='all' />
+<script type='text/javascript' src='http://pierre-giraud.fr/wp-includes/js/jquery/jquery.js?ver=1.12.4-wp'></script>
+<script type='text/javascript' src='http://pierre-giraud.fr/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
+<link rel='https://api.w.org/' href='http://pierre-giraud.fr/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://pierre-giraud.fr/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://pierre-giraud.fr/wp-includes/wlwmanifest.xml" /> 
+<link rel='shortlink' href='http://pierre-giraud.fr/?p=575' />
+<link rel="alternate" type="application/json+oembed" href="http://pierre-giraud.fr/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fpierre-giraud.fr%2Fcreer-un-cv-personnalise-et-interactif-en-html-et-en-css%2F" />
+<link rel="alternate" type="text/xml+oembed" href="http://pierre-giraud.fr/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fpierre-giraud.fr%2Fcreer-un-cv-personnalise-et-interactif-en-html-et-en-css%2F&#038;format=xml" />
+<link rel="shortcut icon" href="http://pierre-giraud.fr/wp-content/uploads/2014/04/Favicon_Pierre_Giraud.png" title="Favicon" />	
+<!--[if IE]>
+<script type="text/javascript">jQuery(document).ready(function (){ jQuery(".menu-item").has("ul").children("a").attr("aria-haspopup", "true");});</script>
+<![endif]-->	
+<!--[if lt IE 9]>
+<script src="http://pierre-giraud.fr/wp-content/themes/sahifa/js/html5.js"></script>
+<script src="http://pierre-giraud.fr/wp-content/themes/sahifa/js/selectivizr-min.js"></script>
+<![endif]-->
+<!--[if IE 9]>
+<link rel="stylesheet" type="text/css" media="all" href="http://pierre-giraud.fr/wp-content/themes/sahifa/css/ie9.css" />
+<![endif]-->
+<!--[if IE 8]>
+<link rel="stylesheet" type="text/css" media="all" href="http://pierre-giraud.fr/wp-content/themes/sahifa/css/ie8.css" />
+<![endif]-->
+<!--[if IE 7]>
+<link rel="stylesheet" type="text/css" media="all" href="http://pierre-giraud.fr/wp-content/themes/sahifa/css/ie7.css" />
+<![endif]-->
+<script type='text/javascript'>
+	/* <![CDATA[ */
+	var tievar = {'go_to' : 'Aller vers…'};
+	var tie = {"ajaxurl":"http://pierre-giraud.fr/wp-admin/admin-ajax.php" , "your_rating":"Your Rating:"};
+	/* ]]> */
+</script>
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+
+<style type="text/css" media="screen"> 
+::-webkit-scrollbar {width: 8px; height:8px; }
+
+body {
+ background-image : url(http://pierre-giraud.fr/wp-content/themes/sahifa/images/patterns/body-bg7.png);background-position: top center;
+}
+	
+</style> 
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="http://pierre-giraud.fr/wp-content/uploads/2014/04/Favicon_Pierre_Giraud.png" />
+<link rel="apple-touch-icon-precomposed" sizes="120x120" href="http://pierre-giraud.fr/wp-content/uploads/2014/04/Favicon_Pierre_Giraud.png" />
+<link rel="apple-touch-icon-precomposed" sizes="72x72" href="http://pierre-giraud.fr/wp-content/uploads/2014/04/Favicon_Pierre_Giraud.png" />
+<link rel="apple-touch-icon-precomposed" href="http://pierre-giraud.fr/wp-content/uploads/2014/04/Favicon_Pierre_Giraud.png" />
+<a href="https://plus.google.com/u/0/102507737620790195585?rel=author"></a><script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-50358536-1', 'pierre-giraud.fr');
+  ga('send', 'pageview');
+
+</script>
+</head>
+<body id="top" class="post-template-default single single-post postid-575 single-format-standard">
+	<div class="background-cover"></div>
+			<header id="theme-header" class="theme-header full-logo">
+						<div class="top-nav">
+							<span class="today-date">mercredi 30 septembre 2020</span>					
+				<div class="top-menu"><ul id="menu-top-top-menu-pierre-giraud-fr" class="menu"><li id="menu-item-47" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-47"><a href="http://pierre-giraud.fr/propos/">A propos</a></li>
+<li id="menu-item-48" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-48"><a href="http://pierre-giraud.fr/?page_id=38">Contact</a></li>
+</ul></div>
+						<div class="search-block">
+						<form method="get" id="searchform" action="http://pierre-giraud.fr/">
+							<button class="search-button" type="submit" value="Recherche"></button>	
+							<input type="text" id="s" name="s" value="Recherche…" onfocus="if (this.value == 'Recherche…') {this.value = '';}" onblur="if (this.value == '') {this.value = 'Recherche…';}"  />
+						</form>
+					</div><!-- .search-block /-->
+		
+	
+			</div><!-- .top-menu /-->
+			
+		<div class="header-content">
+			<div class="logo">
+			<h2>								<a title="Pierre Giraud" href="http://pierre-giraud.fr/">
+					<img src="http://pierre-giraud.fr/wp-content/uploads/2014/04/Banniere_Logo_Pierre_Giraud.png" alt="Pierre Giraud" /><strong>Pierre Giraud Cours Complets et tutoriels de Programmation, Référencement, e-Commerce et e-Marketing</strong>
+				</a>
+			</h2>			</div><!-- .logo /-->
+						<div class="clear"></div>
+		</div>	
+													<nav id="main-nav">
+				<div class="container">
+					<div class="main-menu"><ul id="menu-top-menu-pierre-giraud-fr" class="menu"><li id="menu-item-39" class="menu-item  menu-item-type-custom  menu-item-object-custom  menu-item-home"><a href="http://pierre-giraud.fr">Accueil</a></li>
+<li id="menu-item-249" class="menu-item  menu-item-type-taxonomy  menu-item-object-category  current-post-ancestor  current-menu-parent  current-post-parent"><a href="http://pierre-giraud.fr/category/programmation/">Programmation</a></li>
+<li id="menu-item-177" class="menu-item  menu-item-type-taxonomy  menu-item-object-category"><a href="http://pierre-giraud.fr/category/referencement/">Référencement</a></li>
+<li id="menu-item-184" class="menu-item  menu-item-type-taxonomy  menu-item-object-category"><a href="http://pierre-giraud.fr/category/marketing-social/">Marketing et Social</a></li>
+<li id="menu-item-180" class="menu-item  menu-item-type-taxonomy  menu-item-object-category"><a href="http://pierre-giraud.fr/category/prestashop/">PrestaShop</a></li>
+<li id="menu-item-250" class="menu-item  menu-item-type-taxonomy  menu-item-object-category"><a href="http://pierre-giraud.fr/category/wordpress/">WordPress</a></li>
+<li id="menu-item-42" class="menu-item  menu-item-type-post_type  menu-item-object-page"><a href="http://pierre-giraud.fr/glossaire/">Glossaire</a></li>
+</ul></div>									</div>
+			</nav><!-- .main-nav /-->
+					</header><!-- #header /-->
+	
+		
+	<div id="main-content" class="container">
+	<div class="content">
+		<div xmlns:v="http://rdf.data-vocabulary.org/#"  id="crumbs"><span typeof="v:Breadcrumb"><a rel="v:url" property="v:title" class="crumbs-home" href="http://pierre-giraud.fr">Accueil</a></span> &raquo; <span typeof="v:Breadcrumb"><a rel="v:url" property="v:title" href="http://pierre-giraud.fr/category/programmation/">Programmation</a></span> &raquo; <span class="current">Créer un CV personnalisé et interactif en HTML et en CSS</span></div>		
+	
+		
+				
+				
+						
+		<article class="post-listing post-575 post type-post status-publish format-standard has-post-thumbnail hentry category-programmation tag-cv-css tag-cv-html tag-cv-html-et-css tag-cv-personnalise tag-cv-personnalise-html tag-cv-personnalise-html-et-css">
+			
+			<div class="post-inner">
+				<h1 class="name post-title entry-title" itemprop="itemReviewed" itemscope itemtype="http://schema.org/Thing"><span itemprop="name">Créer un CV personnalisé et interactif en HTML et en CSS</span></h1>
+
+				
+				<div class="entry">
+					<div class="share-post">
+	<span class="share-text">Partager !</span>
+	<script>
+	window.___gcfg = {lang: 'en-US'};
+	(function(w, d, s) {
+	  function go(){
+		var js, fjs = d.getElementsByTagName(s)[0], load = function(url, id) {
+		  if (d.getElementById(id)) {return;}
+		  js = d.createElement(s); js.src = url; js.id = id;
+		  fjs.parentNode.insertBefore(js, fjs);
+		};
+		load('//connect.facebook.net/en/all.js#xfbml=1', 'fbjssdk');
+		load('https://apis.google.com/js/plusone.js', 'gplus1js');
+		load('//platform.twitter.com/widgets.js', 'tweetjs');
+	  }
+	  if (w.addEventListener) { w.addEventListener("load", go, false); }
+	  else if (w.attachEvent) { w.attachEvent("onload",go); }
+	}(window, document, 'script'));
+	</script>
+	<ul>			
+			<li><a href="https://twitter.com/share" class="twitter-share-button" data-url="http://pierre-giraud.fr/creer-un-cv-personnalise-et-interactif-en-html-et-en-css/" data-text="Créer un CV personnalisé et interactif en HTML et en CSS" data-via="" data-lang="en">tweet</a></li>
+				<li>
+			<div id="fb-root"></div>
+			<div class="fb-like" data-href="http://pierre-giraud.fr/creer-un-cv-personnalise-et-interactif-en-html-et-en-css/" data-send="false" data-layout="button_count" data-width="90" data-show-faces="false"></div>
+		</li>
+				<li style="width:80px;"><div class="g-plusone" data-size="medium" data-href="http://pierre-giraud.fr/creer-un-cv-personnalise-et-interactif-en-html-et-en-css/"></div>
+		</li>
+					<li><script src="http://platform.linkedin.com/in.js" type="text/javascript"></script><script type="IN/Share" data-url="http://pierre-giraud.fr/creer-un-cv-personnalise-et-interactif-en-html-et-en-css/" data-counter="right"></script></li>
+			</ul>
+	<div class="clear"></div>
+</div> <!-- .share-post -->					
+					<p>Bonjour à tous ! </p>
+<p>Aujourd’hui, nous allons apprendre à créer un CV totalement personnalisé en HTML et en CSS et à le mettre en ligne. Cela pourrait être un bon moyen de vous différencier de vos concurrents et  donc de vous faire embaucher plus facilement. </p>
+<p>Pour suivre ce tutoriel, vous devez posséder des bases solides en HTML et en CSS. Si ce n’est pas le cas, je vous invite d’abord à regarder mon cours traitant de ces deux langages et à revenir ici une fois le cours assimilé. </p>
+<p>Comme d’habitude, nous allons procéder par étape. On va d’abord réfléchir et réunir les différents éléments qui seront sur notre CV sur papier, ensuite on s’attaquera au HTML, puis au CSS, et nous finirons en rajoutant quelques éléments d’interaction et en mettant notre CV en ligne. </p>
+<h2>1. La réflexion – Les normes du CV</h2>
+<p>La rédaction d’un CV est un exercice plus ou moins normalisé en France. </p>
+<p>En effet, si vous regardez les CV de personnes sortant d’écoles de commerce, il y a peu de chance que vous trouviez une quelconque fantaisie à l’intérieur de ceux-ci : tout est carré, propre, et tout se ressemble.  </p>
+<p>En revanche, si vous jetez un œil à des CV de développeurs par exemple, c’est totalement différent : il n’y a pas deux de pareil, et il y a souvent une forte place laissée à la créativité et des couleurs. </p>
+<p>Nous allons donc essayer de faire quelque chose à mi-chemin entre ces deux extrêmes. Après, libre à vous d’adapter le vôtre selon votre profil et vos préférences ! </p>
+<p>Voici mon CV, modèle sur lequel je vais m’appuyer : </p>
+<p><a href="http://pierre-giraud.fr/wp-content/uploads/2015/01/CV1.png"><img src="http://pierre-giraud.fr/wp-content/uploads/2015/01/CV1.png" alt="CV de Pierre Giraud" width="559" height="877" class="aligncenter size-full wp-image-576" srcset="http://pierre-giraud.fr/wp-content/uploads/2015/01/CV1.png 559w, http://pierre-giraud.fr/wp-content/uploads/2015/01/CV1-191x300.png 191w" sizes="(max-width: 559px) 100vw, 559px" /></a></p>
+<p>Comme vous pouvez le voir, il n’y a rien de bien folichon, mais ça nous fera une bonne base pour commencer. </p>
+<p>On voit différentes sections dans ce CV qui seront très certainement représentées par des div en HTML. On voit également que, si l’on veut reproduire exactement ce CV, il nous faudra faire une mise en page particulière des textes, créer des traits et ajouter une photo. </p>
+<p>Vous êtes prêt ? Alors c’est parti ! </p>
+<h2>2. Créer son CV en HTML</h2>
+<p>Nous allons commencer par rédiger notre CV en HTML en gardant à l’esprit que l’on va devoir le styliser avec le CSS par la suite. </p>
+<p>N’oubliez pas que, normalement, vous devez toujours créer une maquette avant de vous lancer et savoir où vous allez et notamment comment et à quels éléments vous allez appliquer des styles en CSS. </p>
+<p>Si vous ne faites pas ce travail préalable, vous risquez de perdre énormément de temps à faire des allers retours entre vos feuilles HTML et CSS et à ajuster sans cesse votre code HTML. </p>
+<p>Me concernant, j’envisage de grouper les informations de base en haut à gauche du CV et la photo dans un même div afin de pouvoir gérer facilement leur alignement par rapport aux informations du dessous. </p>
+<p>J’appliquerai ensuite un float left aux informations en CSS et un float right à la photo. </p>
+<p>Ensuite, chaque section (formation, expériences professionnelles, etc.) aura son div. Comme les sections ont une mise en page équivalente, on pourra peut être se contenter de n’appliquer certains styles qu’une seule fois en attribuant la même class à différents div. </p>
+<p>Enfin, je vais grouper tout mon CV dans un gros div pour lui donner une taille fixe et pour pouvoir éventuellement ajouter une couleur ou une image de fond à ma page web.  </p>
+<p>Voici donc le schéma envisagé pour mon CV : </p>
+<p><a href="http://pierre-giraud.fr/wp-content/uploads/2015/01/CV2.png"><img src="http://pierre-giraud.fr/wp-content/uploads/2015/01/CV2.png" alt="Avant de coder en HTML et en CSS, toujours faire un travail préliminaire de maquette " width="542" height="828" class="aligncenter size-full wp-image-577" srcset="http://pierre-giraud.fr/wp-content/uploads/2015/01/CV2.png 542w, http://pierre-giraud.fr/wp-content/uploads/2015/01/CV2-196x300.png 196w" sizes="(max-width: 542px) 100vw, 542px" /></a></p>
+<p>Notez bien qu’il y a toujours plusieurs façons de faire en Informatique, je ne vous présente que la plus logique selon moi, mais ce n’est pas forcément toujours la meilleure, donc n’hésitez pas si vous avez d’autres solutions. </p>
+<p>De façon générale, je vous conseille de toujours travailler du plus large vers le plus précis. Ainsi, nous allons commencer par poser tous nos div (d’où l’intérêt d’une réflexion préliminaire avancée !) puis nous écrirons notre contenu ensuite. </p>
+<p>Cela nous donne donc un premier squelette qui ressemble à ça : </p>
+<p><a href="http://pierre-giraud.fr/wp-content/uploads/2015/01/CV3.png"><img src="http://pierre-giraud.fr/wp-content/uploads/2015/01/CV3.png" alt="On commence par créer le squelette en HTML de notre CV" width="500" height="810" class="aligncenter size-full wp-image-578" srcset="http://pierre-giraud.fr/wp-content/uploads/2015/01/CV3.png 500w, http://pierre-giraud.fr/wp-content/uploads/2015/01/CV3-185x300.png 185w" sizes="(max-width: 500px) 100vw, 500px" /></a></p>
+<p>Ensuite, si le travail de réflexion préliminaire a été bien fait, nous n’avons plus qu’à remplir les différentes parties. </p>
+<p>Commençons avec le premier gros div. J’ai pris soin au préalable d’enregistrer ma photo dans le même dossier que ma page HTML sous le nom « photo-cv.png ». </p>
+<p><a href="http://pierre-giraud.fr/wp-content/uploads/2015/01/CV4.png"><img src="http://pierre-giraud.fr/wp-content/uploads/2015/01/CV4.png" alt="On commence par remplir les premiers div HTML de notre CV" width="500" height="448" class="aligncenter size-full wp-image-579" srcset="http://pierre-giraud.fr/wp-content/uploads/2015/01/CV4.png 500w, http://pierre-giraud.fr/wp-content/uploads/2015/01/CV4-300x268.png 300w" sizes="(max-width: 500px) 100vw, 500px" /></a></p>
+<p>J’aurais pu également ajouter un élément de type h plutôt que strong, après, c’est une question de choix et de goûts. </p>
+<p>Rappelez vous que pour le moment on ne s’occupe que du contenu ; le design ne viendra qu’à la fin. </p>
+<p>Poursuivons donc en remplissant nos différentes sections. Attention, vous avez vu que j’ai séparé chaque section en deux div : un pour le contenu de gauche, un pour le contenu de droite. Cela nous permettra ensuite de mettre en forme plus simplement notre CV. </p>
+<p>J’ai donné le même attribut class à toutes nos sections sachant que la mise en page sera la même pour chaque section. </p>
+<p>Pour l’écartement entre les dates, nous allons approximer pour le moment (cela dépendra du nombre de lignes pris par nos textes à droite). Nous pourrons toujours y revenir ensuite afin de peaufiner l’affaire. </p>
+<p>Commençons déjà par remplir les titres et tous nos div « sec-gauche ». Vous devriez avoir ceci : </p>
+<p><a href="http://pierre-giraud.fr/wp-content/uploads/2015/01/CV5v2.png"><img src="http://pierre-giraud.fr/wp-content/uploads/2015/01/CV5v2.png" alt="On remplit le contenu de notre CV dans le squelette HTML" width="500" height="563" class="aligncenter size-full wp-image-580" srcset="http://pierre-giraud.fr/wp-content/uploads/2015/01/CV5v2.png 500w, http://pierre-giraud.fr/wp-content/uploads/2015/01/CV5v2-266x300.png 266w" sizes="(max-width: 500px) 100vw, 500px" /></a></p>
+<p><a href="http://pierre-giraud.fr/wp-content/uploads/2015/01/CV6.png"><img src="http://pierre-giraud.fr/wp-content/uploads/2015/01/CV6.png" alt="Premier résultat pour notre CV en HTML sans CSS" width="500" height="1041" class="aligncenter size-full wp-image-581" srcset="http://pierre-giraud.fr/wp-content/uploads/2015/01/CV6.png 500w, http://pierre-giraud.fr/wp-content/uploads/2015/01/CV6-144x300.png 144w" sizes="(max-width: 500px) 100vw, 500px" /></a></p>
+<p>Ensuite, nous n’avons plus qu’à remplir le contenu de nos div « sec-droite » et on pourra passer à la mise en page en CSS ! </p>
+<p>Vous devriez normalement avoir ceci (désolé, je suis obligé de découper en plusieurs images pour que ça reste lisible pour vous) : </p>
+<p><a href="http://pierre-giraud.fr/wp-content/uploads/2015/01/CV7.png"><img src="http://pierre-giraud.fr/wp-content/uploads/2015/01/CV7.png" alt="Le contenu HTML de la première section de notre CV" width="500" height="185" class="aligncenter size-full wp-image-587" srcset="http://pierre-giraud.fr/wp-content/uploads/2015/01/CV7.png 500w, http://pierre-giraud.fr/wp-content/uploads/2015/01/CV7-300x111.png 300w" sizes="(max-width: 500px) 100vw, 500px" /></a></p>
+<p><a href="http://pierre-giraud.fr/wp-content/uploads/2015/01/CV8.png"><img src="http://pierre-giraud.fr/wp-content/uploads/2015/01/CV8.png" alt="Le contenu HTML de la deuxième section de notre CV" width="500" height="233" class="aligncenter size-full wp-image-586" srcset="http://pierre-giraud.fr/wp-content/uploads/2015/01/CV8.png 500w, http://pierre-giraud.fr/wp-content/uploads/2015/01/CV8-300x139.png 300w" sizes="(max-width: 500px) 100vw, 500px" /></a></p>
+<p><a href="http://pierre-giraud.fr/wp-content/uploads/2015/01/CV9.png"><img src="http://pierre-giraud.fr/wp-content/uploads/2015/01/CV9.png" alt="Le contenu HTML de la troisième section de notre CV" width="500" height="105" class="aligncenter size-full wp-image-585" srcset="http://pierre-giraud.fr/wp-content/uploads/2015/01/CV9.png 500w, http://pierre-giraud.fr/wp-content/uploads/2015/01/CV9-300x63.png 300w" sizes="(max-width: 500px) 100vw, 500px" /></a></p>
+<p><a href="http://pierre-giraud.fr/wp-content/uploads/2015/01/CV10.png"><img src="http://pierre-giraud.fr/wp-content/uploads/2015/01/CV10.png" alt="Le contenu HTML de la quatrième section de notre CV" width="500" height="221" class="aligncenter size-full wp-image-584" srcset="http://pierre-giraud.fr/wp-content/uploads/2015/01/CV10.png 500w, http://pierre-giraud.fr/wp-content/uploads/2015/01/CV10-300x132.png 300w" sizes="(max-width: 500px) 100vw, 500px" /></a></p>
+<p><a href="http://pierre-giraud.fr/wp-content/uploads/2015/01/CV111.png"><img src="http://pierre-giraud.fr/wp-content/uploads/2015/01/CV111.png" alt="On affiche le contenu en HTML de notre CV" width="500" height="553" class="aligncenter size-full wp-image-588" srcset="http://pierre-giraud.fr/wp-content/uploads/2015/01/CV111.png 500w, http://pierre-giraud.fr/wp-content/uploads/2015/01/CV111-271x300.png 271w" sizes="(max-width: 500px) 100vw, 500px" /></a></p>
+<p><a href="http://pierre-giraud.fr/wp-content/uploads/2015/01/CV121.png"><img src="http://pierre-giraud.fr/wp-content/uploads/2015/01/CV121.png" alt="Deuxième partie du contenu HTML de notre CV" width="500" height="494" class="aligncenter size-full wp-image-589" srcset="http://pierre-giraud.fr/wp-content/uploads/2015/01/CV121.png 500w, http://pierre-giraud.fr/wp-content/uploads/2015/01/CV121-300x296.png 300w, http://pierre-giraud.fr/wp-content/uploads/2015/01/CV121-55x55.png 55w" sizes="(max-width: 500px) 100vw, 500px" /></a></p>
+<h2>3. Mettre en page son CV grâce au CSS</h2>
+<p>Maintenant que nous avons tout notre contenu, nous pouvons passer à la mise en forme de notre CV. </p>
+<p>Pour cela, nous allons créer un nouveau fichier « cv.css » et allons lier notre fichier HTML et notre fichier CSS comme on sait le faire, avec l’élément link : </p>
+<p><a href="http://pierre-giraud.fr/wp-content/uploads/2015/01/CV13.png"><img src="http://pierre-giraud.fr/wp-content/uploads/2015/01/CV13.png" alt="On lie une page HTML avec une page CSS grace a notre element link" width="500" height="170" class="aligncenter size-full wp-image-590" srcset="http://pierre-giraud.fr/wp-content/uploads/2015/01/CV13.png 500w, http://pierre-giraud.fr/wp-content/uploads/2015/01/CV13-300x102.png 300w" sizes="(max-width: 500px) 100vw, 500px" /></a></p>
+<p>On va commencer par écrire les styles généraux de notre CV. Pour cela, on va cibler la class « page ». </p>
+<p>Nous allons commencer par donner une largeur à notre CV (nous ne voulons pas  que les éléments flottants se baladent de gauche à droite selon que les visiteurs agrandissent ou rétrécissent leur fenêtre) ave la propriété width. </p>
+<p>Ensuite, nous allons centrer notre contenu. Pour centrer le contenu à l’intérieur d’un width qui possède une largeur, c’est très simple, il suffit de donner la valeur auto à la propriété margin. </p>
+<p>Enfin, nous allons spécifier les polices souhaitées pour notre CV (je vous conseille de ne pas utiliser de polices trop originales ou qui pourraient être peu lisibles pour un CV) ainsi que la taille par défaut de nos textes. </p>
+<p><a href="http://pierre-giraud.fr/wp-content/uploads/2015/01/CV14.png"><img src="http://pierre-giraud.fr/wp-content/uploads/2015/01/CV14.png" alt="On commence par définir les styles généraux de notre CV en CSS" width="500" height="105" class="aligncenter size-full wp-image-591" srcset="http://pierre-giraud.fr/wp-content/uploads/2015/01/CV14.png 500w, http://pierre-giraud.fr/wp-content/uploads/2015/01/CV14-300x63.png 300w" sizes="(max-width: 500px) 100vw, 500px" /></a></p>
+<p>Première chose de faite ! Maintenant, nous allons très grossièrement mettre en forme notre premier gros div en lui donnant une hauteur et avec la propriété float. </p>
+<p><a href="http://pierre-giraud.fr/wp-content/uploads/2015/01/CV15.png"><img src="http://pierre-giraud.fr/wp-content/uploads/2015/01/CV15.png" alt="Utilisation de la propriété float en CSS" width="500" height="213" class="aligncenter size-full wp-image-592" srcset="http://pierre-giraud.fr/wp-content/uploads/2015/01/CV15.png 500w, http://pierre-giraud.fr/wp-content/uploads/2015/01/CV15-300x127.png 300w" sizes="(max-width: 500px) 100vw, 500px" /></a></p>
+<p><a href="http://pierre-giraud.fr/wp-content/uploads/2015/01/CV16.png"><img src="http://pierre-giraud.fr/wp-content/uploads/2015/01/CV16.png" alt="Affichage du début de notre CV avec le CSS" width="600" height="185" class="aligncenter size-full wp-image-594" srcset="http://pierre-giraud.fr/wp-content/uploads/2015/01/CV16.png 600w, http://pierre-giraud.fr/wp-content/uploads/2015/01/CV16-300x92.png 300w" sizes="(max-width: 600px) 100vw, 600px" /></a></p>
+<p>Ensuite, nous allons nous attaquer à la mise en forme des div section et des div sec-droite et sec-gauche. </p>
+<p>Encore une fois, pour le moment, nous n’allons pas dans le détail mais posons les gros jalons de notre mise en page. N’oubliez pas qu’il faut souvent tâtonner en CSS pour obtenir un bon rendu. </p>
+<p><a href="http://pierre-giraud.fr/wp-content/uploads/2015/01/CV17.png"><img src="http://pierre-giraud.fr/wp-content/uploads/2015/01/CV17.png" alt="ON définit les styles en CSS des sections de notre CV" width="500" height="217" class="aligncenter size-full wp-image-595" srcset="http://pierre-giraud.fr/wp-content/uploads/2015/01/CV17.png 500w, http://pierre-giraud.fr/wp-content/uploads/2015/01/CV17-300x130.png 300w" sizes="(max-width: 500px) 100vw, 500px" /></a></p>
+<p><a href="http://pierre-giraud.fr/wp-content/uploads/2015/01/CV18.png"><img src="http://pierre-giraud.fr/wp-content/uploads/2015/01/CV18.png" alt="Affichage des sections de notre CV avec le CSS" width="500" height="731" class="aligncenter size-full wp-image-596" srcset="http://pierre-giraud.fr/wp-content/uploads/2015/01/CV18.png 500w, http://pierre-giraud.fr/wp-content/uploads/2015/01/CV18-205x300.png 205w" sizes="(max-width: 500px) 100vw, 500px" /></a></p>
+<p>On s’aperçoit, comme on pouvait le prévoir, qu’il y a des décalages ponctuels entre la colonne de gauche et celle de droite. </p>
+<p>Pour l’espacement entre chaque titre et le premier paragraphe de nos div gauche, c’est normal : nos div sec-gauche font directement suite à nos titres h2 en HTML. Or, l’espace entre un titre h2 et un paragraphe est plus important que l’espace entre deux paragraphes par défaut. </p>
+<p>Nous nous occuperons de ces décalages à la fin étant donné qu’ils dépendent de la taille de nos textes. </p>
+<p>Pour l’heure, nous allons continuer à mettre en forme nos sections et notamment le texte à l’intérieur de nos sections.</p>
+<p>Nous allons déjà justifier le texte afin que notre CV paraisse plus professionnel, puis changer la taille et la couleur des titres et les mettre en majuscule. Nous allons également changer le poids de nos sous-titres et de nos dates. </p>
+<p><a href="http://pierre-giraud.fr/wp-content/uploads/2015/01/CV19.png"><img src="http://pierre-giraud.fr/wp-content/uploads/2015/01/CV19.png" alt="On définit les styles de nos sous-sections et titres en CSS" width="500" height="727" class="aligncenter size-full wp-image-597" srcset="http://pierre-giraud.fr/wp-content/uploads/2015/01/CV19.png 500w, http://pierre-giraud.fr/wp-content/uploads/2015/01/CV19-206x300.png 206w" sizes="(max-width: 500px) 100vw, 500px" /></a></p>
+<p><a href="http://pierre-giraud.fr/wp-content/uploads/2015/01/CV20.png"><img src="http://pierre-giraud.fr/wp-content/uploads/2015/01/CV20.png" alt="On avance en CSS avec notre CV" width="500" height="750" class="aligncenter size-full wp-image-598" srcset="http://pierre-giraud.fr/wp-content/uploads/2015/01/CV20.png 500w, http://pierre-giraud.fr/wp-content/uploads/2015/01/CV20-200x300.png 200w" sizes="(max-width: 500px) 100vw, 500px" /></a></p>
+<p>Ca commence à être plutôt sympathique tout ça ! Nous n’avons plus qu’à aligner les colonnes entre elles, ajouter un cadre et éventuellement une image de fond et on pourra passer à l’étape suivante. </p>
+<p>Pour aligner nos dates avec nos textes à droite, nous avons plusieurs solutions : </p>
+<ul>
+<li>Créer des retours à la ligne ou des paragraphes en cachant le texte (efficace mais pas très élégant) ;</li>
+<li>Donner un nom à chacun de nos paragraphes de date afin de gérer précisément leur disposition dans la page (précis mais long) ;</li>
+<li>Appliquer une marge basse à nos dates et bricoler ensuite pour avoir un rendu proche (plus rapide mais moins précis).</li>
+</ul>
+<p>Personnellement, je vais me permettre de coupler plusieurs méthodes afin d’arriver assez rapidement à un bon résultat (ce qui est, au final, notre but). </p>
+<p>Je vais commencer par rajouter un id à mon premier div sec-gauche pour pouvoir ne cibler que lui et lui appliquer une marge adéquate.</p>
+<p>On va également appliquer une marge haute sur la partie droite de chacune de nos sections afin d’aligner la première ligne de texte avec la première date. </p>
+<p><a href="http://pierre-giraud.fr/wp-content/uploads/2015/01/CV21.png"><img src="http://pierre-giraud.fr/wp-content/uploads/2015/01/CV21.png" alt="ON applique un id à notre CV pour ne cibler qu&#039;un bout en CSS" width="500" height="139" class="aligncenter size-full wp-image-599" srcset="http://pierre-giraud.fr/wp-content/uploads/2015/01/CV21.png 500w, http://pierre-giraud.fr/wp-content/uploads/2015/01/CV21-300x83.png 300w" sizes="(max-width: 500px) 100vw, 500px" /></a></p>
+<p><a href="http://pierre-giraud.fr/wp-content/uploads/2015/01/CV22.png"><img src="http://pierre-giraud.fr/wp-content/uploads/2015/01/CV22.png" alt="On applique des styles plus précis à notre CV en CSS" width="500" height="80" class="aligncenter size-full wp-image-600" srcset="http://pierre-giraud.fr/wp-content/uploads/2015/01/CV22.png 500w, http://pierre-giraud.fr/wp-content/uploads/2015/01/CV22-300x48.png 300w" sizes="(max-width: 500px) 100vw, 500px" /></a></p>
+<p><a href="http://pierre-giraud.fr/wp-content/uploads/2015/01/CV23.png"><img src="http://pierre-giraud.fr/wp-content/uploads/2015/01/CV23.png" alt="On continue à affiner les styles CSS à notre CV" width="500" height="99" class="aligncenter size-full wp-image-601" srcset="http://pierre-giraud.fr/wp-content/uploads/2015/01/CV23.png 500w, http://pierre-giraud.fr/wp-content/uploads/2015/01/CV23-300x59.png 300w" sizes="(max-width: 500px) 100vw, 500px" /></a></p>
+<p><a href="http://pierre-giraud.fr/wp-content/uploads/2015/01/CV24.png"><img src="http://pierre-giraud.fr/wp-content/uploads/2015/01/CV24.png" alt="Affichage de la première section de notre CV en HTML et CSS" width="500" height="160" class="aligncenter size-full wp-image-602" srcset="http://pierre-giraud.fr/wp-content/uploads/2015/01/CV24.png 500w, http://pierre-giraud.fr/wp-content/uploads/2015/01/CV24-300x96.png 300w" sizes="(max-width: 500px) 100vw, 500px" /></a></p>
+<p>On réitère ensuite plus ou moins la même opération pour les autres sections, avec quelques petits tricks lorsque cela est nécessaire : </p>
+<p><a href="http://pierre-giraud.fr/wp-content/uploads/2015/01/CV25.png"><img src="http://pierre-giraud.fr/wp-content/uploads/2015/01/CV25.png" alt="On définit les styles de notre deuxième section du CV en HTML et CSS" width="500" height="153" class="aligncenter size-full wp-image-603" srcset="http://pierre-giraud.fr/wp-content/uploads/2015/01/CV25.png 500w, http://pierre-giraud.fr/wp-content/uploads/2015/01/CV25-300x91.png 300w" sizes="(max-width: 500px) 100vw, 500px" /></a></p>
+<p><a href="http://pierre-giraud.fr/wp-content/uploads/2015/01/CV26.png"><img src="http://pierre-giraud.fr/wp-content/uploads/2015/01/CV26.png" alt="On règle la marge pour les sections de notre CV en CSS" width="500" height="63" class="aligncenter size-full wp-image-604" srcset="http://pierre-giraud.fr/wp-content/uploads/2015/01/CV26.png 500w, http://pierre-giraud.fr/wp-content/uploads/2015/01/CV26-300x37.png 300w" sizes="(max-width: 500px) 100vw, 500px" /></a></p>
+<p><a href="http://pierre-giraud.fr/wp-content/uploads/2015/01/CV27.png"><img src="http://pierre-giraud.fr/wp-content/uploads/2015/01/CV27.png" alt="Affichage deuxieme section CV  en HTML et CSS" width="500" height="245" class="aligncenter size-full wp-image-605" srcset="http://pierre-giraud.fr/wp-content/uploads/2015/01/CV27.png 500w, http://pierre-giraud.fr/wp-content/uploads/2015/01/CV27-300x147.png 300w" sizes="(max-width: 500px) 100vw, 500px" /></a></p>
+<p>Au final, vous devriez obtenir quelque chose comme cela : </p>
+<p><a href="http://pierre-giraud.fr/wp-content/uploads/2015/01/CV28.png"><img src="http://pierre-giraud.fr/wp-content/uploads/2015/01/CV28.png" alt="On affiche notre CV quasiment fini" width="500" height="800" class="aligncenter size-full wp-image-606" srcset="http://pierre-giraud.fr/wp-content/uploads/2015/01/CV28.png 500w, http://pierre-giraud.fr/wp-content/uploads/2015/01/CV28-187x300.png 187w" sizes="(max-width: 500px) 100vw, 500px" /></a></p>
+<p>Finalement, on enjolive un peu le tout en rajoutant une bordure arrondie à notre CV, une ombre et en ajoutant une couleur de fond. </p>
+<p><a href="http://pierre-giraud.fr/wp-content/uploads/2015/01/CV29.png"><img src="http://pierre-giraud.fr/wp-content/uploads/2015/01/CV29.png" alt="On ajoute une couleur de fond et une bordure à notre CV" width="500" height="235" class="aligncenter size-full wp-image-607" srcset="http://pierre-giraud.fr/wp-content/uploads/2015/01/CV29.png 500w, http://pierre-giraud.fr/wp-content/uploads/2015/01/CV29-300x141.png 300w" sizes="(max-width: 500px) 100vw, 500px" /></a></p>
+<p>C’est fini pour la mise en page ! Il n’y a plus qu’à ajouter deux-trois éléments afin de donner un côté interactif à notre CV et on pourra le mettre en ligne !</p>
+<h2>4. Créer des éléments d’interaction</h2>
+<p>Nous créons un CV en ligne, profitons donc des avantages du web par rapport au papier et profitons pour lui ajouter un côté interactif ! </p>
+<p>Nous pouvons faire cela de différentes façons : en créant des transitions en CSS, en utilisant des pseudo formats en CSS ou encore en créant des liens ramenant vers d’autres pages. </p>
+<p>Je vais vous donner quelques exemples de ce qu’il est possible de faire dans cette partie, en commençant avec les pseudo formats. </p>
+<p>On peut par exemple colorer le texte de toute une section lorsque l’utilisateur passe sa souris dessus grâce au pseudo format :hover. </p>
+<p><a href="http://pierre-giraud.fr/wp-content/uploads/2015/01/CV31.png"><img src="http://pierre-giraud.fr/wp-content/uploads/2015/01/CV31.png" alt="ON ajoute des pseudo styles CSS pour ajouter de l&#039;interaction à notre CV " width="500" height="64" class="aligncenter size-full wp-image-608" srcset="http://pierre-giraud.fr/wp-content/uploads/2015/01/CV31.png 500w, http://pierre-giraud.fr/wp-content/uploads/2015/01/CV31-300x38.png 300w" sizes="(max-width: 500px) 100vw, 500px" /></a></p>
+<p><a href="http://pierre-giraud.fr/wp-content/uploads/2015/01/CV32.png"><img src="http://pierre-giraud.fr/wp-content/uploads/2015/01/CV32.png" alt="Résultat suite à la pseudo classe :hover sur notre CV" width="500" height="160" class="aligncenter size-full wp-image-609" srcset="http://pierre-giraud.fr/wp-content/uploads/2015/01/CV32.png 500w, http://pierre-giraud.fr/wp-content/uploads/2015/01/CV32-300x96.png 300w" sizes="(max-width: 500px) 100vw, 500px" /></a></p>
+<p>On peut également mettre des liens sur les titres de notre CV par exemple, liens qui ramèneraient vers d’autres pages avec davantage d’informations sur l’élément en question. </p>
+<p>5. Mettre notre CV en ligne </p>
+<p>Ca y est, notre page de CV est prête ! Il ne nous reste plus qu’à la mettre en ligne !</p>
+<p>Pour cela, il va vous falloir choisir un nom de domaine et un hébergeur avec une formule d’hébergement. </p>
+<p>Pour le nom de domaine, on va faire simple, je vous conseille vivement de choisir votre propre nom, tout simplement. Pour l’extension, prenez un « .com » si disponible ou un « .votrepays ». </p>
+<p>Ensuite, pour l’hébergement, si vous ne comptez héberger que votre CV les offres d’entrée de gamme feront parfaitement l’affaire. </p>
+<p>A ce titre, je vous conseille encore et toujours Siteground qui possède les meilleures offres selon moi : <a href="http://www.siteground.com/web-hosting.htm?afbannercode=5cb392c849c0c01d9a3d998af328286a">cliquez ici</a></p>
+<p>A bientôt ! </p>
+										
+					
+									</div><!-- .entry /-->
+				<span style="display:none"><a href="http://pierre-giraud.fr/tag/cv-css/" rel="tag">CV CSS</a> <a href="http://pierre-giraud.fr/tag/cv-html/" rel="tag">CV html</a> <a href="http://pierre-giraud.fr/tag/cv-html-et-css/" rel="tag">CV HTML et CSS</a> <a href="http://pierre-giraud.fr/tag/cv-personnalise/" rel="tag">Cv personnalisé</a> <a href="http://pierre-giraud.fr/tag/cv-personnalise-html/" rel="tag">CV personnalisé HTML</a> <a href="http://pierre-giraud.fr/tag/cv-personnalise-html-et-css/" rel="tag">CV personnalisé HTML et CSS</a></span>				<span style="display:none" class="updated">2015-01-15</span>
+								<div style="display:none" class="vcard author" itemprop="author" itemscope itemtype="http://schema.org/Person"><strong class="fn" itemprop="name"><a href="http://pierre-giraud.fr/author/pierregiraud/" title="Articles par Pierre Giraud" rel="author">Pierre Giraud</a></strong></div>
+								
+				<div class="share-post">
+	<span class="share-text">Partager !</span>
+	<script>
+	window.___gcfg = {lang: 'en-US'};
+	(function(w, d, s) {
+	  function go(){
+		var js, fjs = d.getElementsByTagName(s)[0], load = function(url, id) {
+		  if (d.getElementById(id)) {return;}
+		  js = d.createElement(s); js.src = url; js.id = id;
+		  fjs.parentNode.insertBefore(js, fjs);
+		};
+		load('//connect.facebook.net/en/all.js#xfbml=1', 'fbjssdk');
+		load('https://apis.google.com/js/plusone.js', 'gplus1js');
+		load('//platform.twitter.com/widgets.js', 'tweetjs');
+	  }
+	  if (w.addEventListener) { w.addEventListener("load", go, false); }
+	  else if (w.attachEvent) { w.attachEvent("onload",go); }
+	}(window, document, 'script'));
+	</script>
+	<ul>			
+			<li><a href="https://twitter.com/share" class="twitter-share-button" data-url="http://pierre-giraud.fr/creer-un-cv-personnalise-et-interactif-en-html-et-en-css/" data-text="Créer un CV personnalisé et interactif en HTML et en CSS" data-via="" data-lang="en">tweet</a></li>
+				<li>
+			<div id="fb-root"></div>
+			<div class="fb-like" data-href="http://pierre-giraud.fr/creer-un-cv-personnalise-et-interactif-en-html-et-en-css/" data-send="false" data-layout="button_count" data-width="90" data-show-faces="false"></div>
+		</li>
+				<li style="width:80px;"><div class="g-plusone" data-size="medium" data-href="http://pierre-giraud.fr/creer-un-cv-personnalise-et-interactif-en-html-et-en-css/"></div>
+		</li>
+					<li><script src="http://platform.linkedin.com/in.js" type="text/javascript"></script><script type="IN/Share" data-url="http://pierre-giraud.fr/creer-un-cv-personnalise-et-interactif-en-html-et-en-css/" data-counter="right"></script></li>
+			</ul>
+	<div class="clear"></div>
+</div> <!-- .share-post -->
+			</div><!-- .post-inner -->
+		</article><!-- .post-listing -->
+		
+		
+				
+				
+		
+						
+		<div class="post-navigation">
+			<div class="post-previous"><a href="http://pierre-giraud.fr/optimiser-referencement-google-2015/" rel="prev"><span>Précédent :</span> Optimiser son référencement en 2015</a></div>
+			<div class="post-next"></div>
+		</div><!-- .post-navigation -->
+			
+		
+		
+				<div id="comments">
+
+			<h3 id="comments-title">
+			4 commentaires			</h3>
+
+										<ol class="commentlist">	<li id="comment-6287">
+		<div  class="comment even thread-even depth-1 comment-wrap" >
+			<div class="comment-avatar"><img alt='' src='http://1.gravatar.com/avatar/7bee5b1b74761f07d9d5b43627fb5704?s=45&#038;d=monsterid&#038;r=g' srcset='http://1.gravatar.com/avatar/7bee5b1b74761f07d9d5b43627fb5704?s=90&#038;d=monsterid&#038;r=g 2x' class='avatar avatar-45 photo' height='45' width='45' /></div>
+			<div class="author-comment">
+				<cite class="fn">TheDefunt</cite>				<div class="comment-meta commentmetadata"><a href="http://pierre-giraud.fr/creer-un-cv-personnalise-et-interactif-en-html-et-en-css/#comment-6287">	14 avril 2015 at 9:59  </a></div><!-- .comment-meta .commentmetadata -->
+			</div>
+			<div class="clear"></div>
+			<div class="comment-content">
+									
+				<p>Bonjour ! Je tiens à dire que malgré un excellent travail, je trouve que cela ne respecte pas du tout la sémantique ! Vous auriez pu gagner du temps et faire gagner du temps au navigateurs en utilisant des balises sémantique ! Utiliser un div qui a class= »section » ne devrait pas être utilisé quand nous connaissons la balise section.</p>
+<p>Bonne journée !</p>
+			</div>
+			<div class="reply"></div><!-- .reply -->
+		</div><!-- #comment-##  -->
+
+	<ul class="children">
+	<li id="comment-11310">
+		<div  class="comment byuser comment-author-pierregiraud bypostauthor odd alt depth-2 comment-wrap" >
+			<div class="comment-avatar"><img alt='' src='http://0.gravatar.com/avatar/3d4dced1142f11372f320dbedb7857b8?s=45&#038;d=monsterid&#038;r=g' srcset='http://0.gravatar.com/avatar/3d4dced1142f11372f320dbedb7857b8?s=90&#038;d=monsterid&#038;r=g 2x' class='avatar avatar-45 photo' height='45' width='45' /></div>
+			<div class="author-comment">
+				<cite class="fn"><a href='http://pierre-giraud.fr' rel='external nofollow ugc' class='url'>Pierre Giraud</a></cite>				<div class="comment-meta commentmetadata"><a href="http://pierre-giraud.fr/creer-un-cv-personnalise-et-interactif-en-html-et-en-css/#comment-11310">	15 mai 2015 at 3:55  </a></div><!-- .comment-meta .commentmetadata -->
+			</div>
+			<div class="clear"></div>
+			<div class="comment-content">
+									
+				<p>Bonjour, </p>
+<p>En effet, ce code peut être amélioré et je suis très content de voir que certains gardent un oeil vigilant là dessus. Le fait est que je n&rsquo;ai pas abordé les balises structurantes dans mon cours HTML et CSS et ne voulais pas faire un cours pour le CV mais plutôt un TP, donc sans nouvelle notion. De plus, pour une site de type « page cv », la perte de performance est très minime. Mais votre remarque est tout à fait justifiée. </p>
+<p>Amicalement,<br />
+Pierre</p>
+			</div>
+			<div class="reply"></div><!-- .reply -->
+		</div><!-- #comment-##  -->
+
+	</li><!-- #comment-## -->
+</ul><!-- .children -->
+</li><!-- #comment-## -->
+	<li id="comment-4562">
+		<div  class="comment even thread-odd thread-alt depth-1 comment-wrap" >
+			<div class="comment-avatar"><img alt='' src='http://1.gravatar.com/avatar/46ee18cfd7ab5a0c7d88647480ce210f?s=45&#038;d=monsterid&#038;r=g' srcset='http://1.gravatar.com/avatar/46ee18cfd7ab5a0c7d88647480ce210f?s=90&#038;d=monsterid&#038;r=g 2x' class='avatar avatar-45 photo' height='45' width='45' /></div>
+			<div class="author-comment">
+				<cite class="fn">jumeau</cite>				<div class="comment-meta commentmetadata"><a href="http://pierre-giraud.fr/creer-un-cv-personnalise-et-interactif-en-html-et-en-css/#comment-4562">	27 mars 2015 at 9:23  </a></div><!-- .comment-meta .commentmetadata -->
+			</div>
+			<div class="clear"></div>
+			<div class="comment-content">
+									
+				<p>Bonjour,</p>
+<p>Je n&rsquo;arrive pas à reproduire exactement la mise en forme de ton CV, je rencontre des problèmes de structure et de caractère spéciaux. Pouvez-vous m&rsquo;aider svp.<br />
+Merci pour votre réponse</p>
+<p>Cordialement</p>
+			</div>
+			<div class="reply"></div><!-- .reply -->
+		</div><!-- #comment-##  -->
+
+	<ul class="children">
+	<li id="comment-5279">
+		<div  class="comment byuser comment-author-pierregiraud bypostauthor odd alt depth-2 comment-wrap" >
+			<div class="comment-avatar"><img alt='' src='http://0.gravatar.com/avatar/3d4dced1142f11372f320dbedb7857b8?s=45&#038;d=monsterid&#038;r=g' srcset='http://0.gravatar.com/avatar/3d4dced1142f11372f320dbedb7857b8?s=90&#038;d=monsterid&#038;r=g 2x' class='avatar avatar-45 photo' height='45' width='45' /></div>
+			<div class="author-comment">
+				<cite class="fn"><a href='http://pierre-giraud.fr' rel='external nofollow ugc' class='url'>Pierre Giraud</a></cite>				<div class="comment-meta commentmetadata"><a href="http://pierre-giraud.fr/creer-un-cv-personnalise-et-interactif-en-html-et-en-css/#comment-5279">	3 avril 2015 at 9:19  </a></div><!-- .comment-meta .commentmetadata -->
+			</div>
+			<div class="clear"></div>
+			<div class="comment-content">
+									
+				<p>Bonjour, </p>
+<p>Concernant les caractères spéciaux, vérifiez que votre fichier est bel et bien configuré en utf-8 (et non pas en mac-rom comme c&rsquo;est le cas par défaut par exemple avec Mac). Concernant les problèmes de structure, je ne peux pas vous aider (il me faudrait vos fichiers sous les yeux, et dans tous les cas je pense qu&rsquo;il est mieux que vous vous entrainiez à les résoudre tout seul). </p>
+<p>Amicalement,<br />
+Pierre</p>
+			</div>
+			<div class="reply"></div><!-- .reply -->
+		</div><!-- #comment-##  -->
+
+	</li><!-- #comment-## -->
+</ul><!-- .children -->
+</li><!-- #comment-## -->
+</ol>
+			    
+							
+
+
+
+</div><!-- #comments -->
+	
+	</div><!-- .content -->
+<aside id="sidebar">
+<div id="paypal_donations-2" class="widget widget_paypal_donations"><div class="widget-top"><h4>Un petit geste ?</h4><div class="stripe-line"></div></div>
+						<div class="widget-container"><p>Mes tutoriels vous ont aidé ? Aidez-moi à vous en fournir d'autres ! </p>
+<!-- Begin PayPal Donations by https://www.tipsandtricks-hq.com/paypal-donations-widgets-plugin -->
+
+<form action="https://www.paypal.com/cgi-bin/webscr" method="post">
+    <div class="paypal-donations">
+        <input type="hidden" name="cmd" value="_donations" />
+        <input type="hidden" name="bn" value="TipsandTricks_SP" />
+        <input type="hidden" name="business" value="pierre.giraud@edhec.com" />
+        <input type="hidden" name="return" value="http://pierre-giraud.fr" />
+        <input type="hidden" name="rm" value="0" />
+        <input type="hidden" name="currency_code" value="EUR" />
+        <input type="image" style="cursor: pointer;" src="https://www.paypal.com/fr_FR/FR/i/btn/btn_donate_LG.gif" name="submit" alt="PayPal - The safer, easier way to pay online." />
+        <img alt="" src="https://www.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1" />
+    </div>
+</form>
+<!-- End PayPal Donations -->
+</div></div><!-- .widget /--><div id="ads300_250-widget-3" class="widget ads300_250-widget"><div class="widget-top"><h4> Cela pourrait vous intéresser</h4><div class="stripe-line"></div></div>
+						<div class="widget-container">		<div  class="ads300-250">
+								<div class="ad-cell">
+				<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- 300*250 (1) PG -->
+<ins class="adsbygoogle"
+     style="display:inline-block;width:250px;height:250px"
+     data-ad-client="ca-pub-8384266137058067"
+     data-ad-slot="8731202431"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+			</div>
+				</div>
+	</div></div><!-- .widget /--><div id="ads300_250-widget-4" class="widget ads300_250-widget"><div class="widget-top"><h4>Ca aussi ! </h4><div class="stripe-line"></div></div>
+						<div class="widget-container">		<div  class="ads300-250">
+								<div class="ad-cell">
+				<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- 300*250 (2) PG -->
+<ins class="adsbygoogle"
+     style="display:inline-block;width:250px;height:250px"
+     data-ad-client="ca-pub-8384266137058067"
+     data-ad-slot="1207935631"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+			</div>
+				</div>
+	</div></div><!-- .widget /--><div id="ads160_600-widget-2" class="widget ads160_600-widget"><div class="widget-top"><h4>Et peut-être même ça ? </h4><div class="stripe-line"></div></div>
+						<div class="widget-container">		<div  class="ads160-600">
+								<div class="ad-cell">
+				<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Adsense_1_160-600 -->
+<ins class="adsbygoogle"
+     style="display:inline-block;width:160px;height:600px"
+     data-ad-client="ca-pub-8384266137058067"
+     data-ad-slot="3257617234"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+			</div>
+				</div>
+	</div></div><!-- .widget /--><div id="author-bio-widget-2" class="widget Author-Bio"><div class="widget-top"><h4>Je suis&#8230;</h4><div class="stripe-line"></div></div>
+						<div class="widget-container">			<div class="author-avatar">
+				<img alt="" src="http://pierre-giraud.fr/wp-content/uploads/2014/04/Avatar-Pierre-Giraud.jpg">
+			</div>
+			<div class="author-description">
+			<p style='text-align:justify;'>Pierre. Diplômé d'un master 2 entrepreneuriat et passionné par le web et les start-ups, j'ai beaucoup étudié les thématiques du référencement et du e-commerce. J'ai travaillé pour des boîtes comme PrestaShop et ai déjà monté 5 entreprises. 
+Aujourd'hui, je mets mes connaissances à votre disposition pour vous accompagner dans votre réussite. </p>			</div><div class="clear"></div>
+			</div></div><!-- .widget /-->		<div class="widget widget-counter col4">
+			<ul>
+							<li class="rss-subscribers">
+					<a href="http://pierre-giraud.fr/feed" target="_blank" >
+						<strong class="tieicon-rss"></strong>
+						<span>S'abonner</span>
+						<small>Vers les liens RSS</small>
+					</a>
+				</li>
+										<li class="twitter-followers">
+					<a href="http://www.twitter.com/pierregird" target="_blank" >
+						<strong class="tieicon-twitter"></strong>
+						<span>1,468</span>
+						<small>Suiveurs</small>
+					</a>
+				</li>
+										<li class="facebook-fans">
+					<a href="https://www.facebook.com/PierreGiraud.fr" target="_blank" >
+						<strong class="tieicon-facebook"></strong>
+						<span>670</span>
+						<small>Fans</small>
+					</a>
+				</li>
+										<li class="youtube-subs">
+					<a href="https://www.youtube.com/channel/UCsFoQ4A9CZbF3qag317uZZQ" target="_blank" >
+						<strong class="tieicon-youtube"></strong>
+						<span>37,521</span>
+						<small>Abonnés</small>
+					</a>
+				</li>
+													
+						
+			</ul>
+		</div>
+		
+	<div id="ads250_250-widget-2" class="widget ads250_250-widget"><div class="widget-top"><h4> Sponsor</h4><div class="stripe-line"></div></div>
+						<div class="widget-container">		<div  class="ads250-250">
+								<div class="ad-cell">
+				<a href="http://www.siteground.com/web-hosting.htm?afbannercode=5cb392c849c0c01d9a3d998af328286a"  target="_blank"  >					<img src=" https://ua.siteground.com/img/banners/general/aqua/250x250.gif " alt="" />
+				</a>			</div>
+				</div>
+	</div></div><!-- .widget /--><div id="ads300_250-widget-2" class="widget ads300_250-widget"><div class="widget-top"><h4> Sponsor</h4><div class="stripe-line"></div></div>
+						<div class="widget-container">		<div  class="ads300-250">
+								<div class="ad-cell">
+				<a href="//www.bluehost.com/track/cookmemaybe/"  target="_blank"  >					<img src=" //bluehost-cdn.com/media/partner/images/cookmemaybe/300x250/bh-ppc-banners-dynamic-300x250.png " alt="" />
+				</a>			</div>
+				</div>
+	</div></div><!-- .widget /--><div id="google-widget-2" class="widget google-widget"><div class="widget-top"><h4>Suivez-moi sur Google + !		</h4><div class="stripe-line"></div></div>
+						<div class="widget-container">			<div class="google-box">
+				<!-- Google +1 script -->
+				<script type="text/javascript">
+				  (function() {
+					var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+					po.src = 'https://apis.google.com/js/plusone.js';
+					var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+				  })();
+				</script>
+				<!-- Link blog to Google+ page -->
+				<a style='display: block; height: 0;' href="https://plus.google.com/102507737620790195585/posts" rel="publisher">&nbsp;</a>
+				<!-- Google +1 Page badge -->
+				<g:plus href="https://plus.google.com/102507737620790195585/posts" height="131" width="280" theme="light"></g:plus>
+
+			</div>
+	</div></div><!-- .widget /--></aside>	<div class="clear"></div>
+</div><!-- .container /-->
+
+<footer id="theme-footer">
+	<div id="footer-widget-area" class="footer-4c">
+
+			<div id="footer-first" class="footer-widgets-box">
+			<div id="posts-list-widget-2" class="footer-widget posts-list"><div class="footer-widget-top"><h4>Tutoriels populaires		</h4></div>
+						<div class="footer-widget-container">				<ul>
+								<li >
+						
+				<div class="post-thumbnail">
+					<a href="http://pierre-giraud.fr/apprenez-coder-en-html-en-css/" title="Permaliens vers Apprenez à coder en HTML et en CSS !" rel="bookmark"><img width="55" height="55" src="http://pierre-giraud.fr/wp-content/uploads/2014/11/Cours-Complet-HTML-CSS-55x55.png" class="attachment-tie-small size-tie-small" alt="Apprenez à coder en HTML et en CSS !" title="Apprenez à coder en HTML et en CSS !" srcset="http://pierre-giraud.fr/wp-content/uploads/2014/11/Cours-Complet-HTML-CSS-55x55.png 55w, http://pierre-giraud.fr/wp-content/uploads/2014/11/Cours-Complet-HTML-CSS-150x150.png 150w, http://pierre-giraud.fr/wp-content/uploads/2014/11/Cours-Complet-HTML-CSS.png 300w" sizes="(max-width: 55px) 100vw, 55px" /><span class="overlay-icon"></span></a>
+				</div><!-- post-thumbnail /-->
+							<h3><a href="http://pierre-giraud.fr/apprenez-coder-en-html-en-css/" title="Apprenez à coder en HTML et en CSS !">Apprenez à coder en HTML et en CSS !</a></h3>
+				 <span class="date"><span>15 novembre 2014</span></span>
+			</li>
+				<li >
+						
+				<div class="post-thumbnail">
+					<a href="http://pierre-giraud.fr/quel-hebergeur-hebergement-choisir-site-internet/" title="Permaliens vers Quel Hébergeur et Hébergement Choisir pour votre Site Internet ?" rel="bookmark"><img width="55" height="55" src="http://pierre-giraud.fr/wp-content/uploads/2014/09/Hebergement-web-Prestashop-55x55.jpg" class="attachment-tie-small size-tie-small" alt="Quel Hébergeur et Hébergement Choisir pour votre Site Internet ?" title="Quel Hébergeur et Hébergement Choisir pour votre Site Internet ?" srcset="http://pierre-giraud.fr/wp-content/uploads/2014/09/Hebergement-web-Prestashop-55x55.jpg 55w, http://pierre-giraud.fr/wp-content/uploads/2014/09/Hebergement-web-Prestashop-150x150.jpg 150w, http://pierre-giraud.fr/wp-content/uploads/2014/09/Hebergement-web-Prestashop.jpg 300w" sizes="(max-width: 55px) 100vw, 55px" /><span class="overlay-icon"></span></a>
+				</div><!-- post-thumbnail /-->
+							<h3><a href="http://pierre-giraud.fr/quel-hebergeur-hebergement-choisir-site-internet/" title="Quel Hébergeur et Hébergement Choisir pour votre Site Internet ?">Quel Hébergeur et Hébergement Choisir pour votre Site Internet ?</a></h3>
+				 <span class="date"><span>1 novembre 2014</span></span>
+			</li>
+				<li >
+						
+				<div class="post-thumbnail">
+					<a href="http://pierre-giraud.fr/installer-prestashop-en-local/" title="Permaliens vers Installer PrestaShop en Local" rel="bookmark"><img width="55" height="55" src="http://pierre-giraud.fr/wp-content/uploads/2014/05/Installer-PrestaShop-en-Local-55x55.png" class="attachment-tie-small size-tie-small" alt="Installer PrestaShop en Local" title="Installer PrestaShop en Local" srcset="http://pierre-giraud.fr/wp-content/uploads/2014/05/Installer-PrestaShop-en-Local-55x55.png 55w, http://pierre-giraud.fr/wp-content/uploads/2014/05/Installer-PrestaShop-en-Local-150x150.png 150w, http://pierre-giraud.fr/wp-content/uploads/2014/05/Installer-PrestaShop-en-Local.png 300w" sizes="(max-width: 55px) 100vw, 55px" /><span class="overlay-icon"></span></a>
+				</div><!-- post-thumbnail /-->
+							<h3><a href="http://pierre-giraud.fr/installer-prestashop-en-local/" title="Installer PrestaShop en Local">Installer PrestaShop en Local</a></h3>
+				 <span class="date"><span>15 septembre 2014</span></span>
+			</li>
+				<li >
+						
+				<div class="post-thumbnail">
+					<a href="http://pierre-giraud.fr/developpez-sites-web-dynamiques-php-mysql/" title="Permaliens vers Développez des sites web dynamiques avec PhP et MySQL [Tuto en cours]" rel="bookmark"><img width="55" height="55" src="http://pierre-giraud.fr/wp-content/uploads/2014/11/Cours-Complet-PhP-MySQL-55x55.png" class="attachment-tie-small size-tie-small" alt="Développez des sites web dynamiques avec PhP et MySQL [Tuto en cours]" title="Développez des sites web dynamiques avec PhP et MySQL [Tuto en cours]" srcset="http://pierre-giraud.fr/wp-content/uploads/2014/11/Cours-Complet-PhP-MySQL-55x55.png 55w, http://pierre-giraud.fr/wp-content/uploads/2014/11/Cours-Complet-PhP-MySQL-150x150.png 150w, http://pierre-giraud.fr/wp-content/uploads/2014/11/Cours-Complet-PhP-MySQL.png 250w" sizes="(max-width: 55px) 100vw, 55px" /><span class="overlay-icon"></span></a>
+				</div><!-- post-thumbnail /-->
+							<h3><a href="http://pierre-giraud.fr/developpez-sites-web-dynamiques-php-mysql/" title="Développez des sites web dynamiques avec PhP et MySQL [Tuto en cours]">Développez des sites web dynamiques avec PhP et MySQL [Tuto en cours]</a></h3>
+				 <span class="date"><span>1 décembre 2014</span></span>
+			</li>
+				<li >
+						
+				<div class="post-thumbnail">
+					<a href="http://pierre-giraud.fr/creation-dun-menu-horizontal-simple-en-html-en-css/" title="Permaliens vers Création d&rsquo;un menu horizontal simple en HTML et en CSS" rel="bookmark"><img width="55" height="55" src="http://pierre-giraud.fr/wp-content/uploads/2014/11/Menu-Horizontal-HTML-CSS-55x55.png" class="attachment-tie-small size-tie-small" alt="Création d&rsquo;un menu horizontal simple en HTML et en CSS" title="Création d&rsquo;un menu horizontal simple en HTML et en CSS" srcset="http://pierre-giraud.fr/wp-content/uploads/2014/11/Menu-Horizontal-HTML-CSS-55x55.png 55w, http://pierre-giraud.fr/wp-content/uploads/2014/11/Menu-Horizontal-HTML-CSS-150x150.png 150w, http://pierre-giraud.fr/wp-content/uploads/2014/11/Menu-Horizontal-HTML-CSS.png 250w" sizes="(max-width: 55px) 100vw, 55px" /><span class="overlay-icon"></span></a>
+				</div><!-- post-thumbnail /-->
+							<h3><a href="http://pierre-giraud.fr/creation-dun-menu-horizontal-simple-en-html-en-css/" title="Création d&rsquo;un menu horizontal simple en HTML et en CSS">Création d&rsquo;un menu horizontal simple en HTML et en CSS</a></h3>
+				 <span class="date"><span>15 décembre 2014</span></span>
+			</li>
+		
+				</ul>
+		<div class="clear"></div>
+	</div></div><!-- .widget /-->		</div>
+	
+			<div id="footer-second" class="footer-widgets-box">
+			<div id="recent-comments-2" class="footer-widget widget_recent_comments"><div class="footer-widget-top"><h4>Commentaires récents</h4></div>
+						<div class="footer-widget-container"><ul id="recentcomments"><li class="recentcomments"><span class="comment-author-link">Balde</span> dans <a href="http://pierre-giraud.fr/apprenez-coder-en-html-en-css/#comment-11503">Apprenez à coder en HTML et en CSS !</a></li><li class="recentcomments"><span class="comment-author-link"><a href='http://pierre-giraud.fr' rel='external nofollow ugc' class='url'>Pierre Giraud</a></span> dans <a href="http://pierre-giraud.fr/installer-prestashop-en-local/#comment-11314">Installer PrestaShop en Local</a></li><li class="recentcomments"><span class="comment-author-link"><a href='http://pierre-giraud.fr' rel='external nofollow ugc' class='url'>Pierre Giraud</a></span> dans <a href="http://pierre-giraud.fr/quelle-solution-e-commerce-choisir-prestashop-magento-shopify/#comment-11311">Quelle Solution E-Commerce Choisir : PrestaShop, Magento, Shopify, etc. ?</a></li><li class="recentcomments"><span class="comment-author-link"><a href='http://pierre-giraud.fr' rel='external nofollow ugc' class='url'>Pierre Giraud</a></span> dans <a href="http://pierre-giraud.fr/creer-un-cv-personnalise-et-interactif-en-html-et-en-css/#comment-11310">Créer un CV personnalisé et interactif en HTML et en CSS</a></li><li class="recentcomments"><span class="comment-author-link"><a href='http://pierre-giraud.fr' rel='external nofollow ugc' class='url'>Pierre Giraud</a></span> dans <a href="http://pierre-giraud.fr/installer-prestashop-en-local/#comment-11308">Installer PrestaShop en Local</a></li></ul></div></div><!-- .widget /-->		</div><!-- #second .widget-area -->
+	
+
+			<div id="footer-third" class="footer-widgets-box">
+			<div id="posts-list-widget-3" class="footer-widget posts-list"><div class="footer-widget-top"><h4>Articles au hasard		</h4></div>
+						<div class="footer-widget-container">				<ul>
+					<li >
+				
+		<div class="post-thumbnail">
+			<a href="http://pierre-giraud.fr/optimiser-referencement-google-2015/" title="Permaliens vers Optimiser son référencement en 2015" rel="bookmark"><img width="55" height="55" src="http://pierre-giraud.fr/wp-content/uploads/2014/04/Referencement-Google-2014-55x55.png" class="attachment-tie-small size-tie-small" alt="Optimiser son référencement en 2015" title="Optimiser son référencement en 2015" srcset="http://pierre-giraud.fr/wp-content/uploads/2014/04/Referencement-Google-2014-55x55.png 55w, http://pierre-giraud.fr/wp-content/uploads/2014/04/Referencement-Google-2014-150x150.png 150w, http://pierre-giraud.fr/wp-content/uploads/2014/04/Referencement-Google-2014.png 300w" sizes="(max-width: 55px) 100vw, 55px" /><span class="overlay-icon"></span></a>
+		</div><!-- post-thumbnail /-->
+		<h3><a href="http://pierre-giraud.fr/optimiser-referencement-google-2015/">Optimiser son référencement en 2015</a></h3>
+	 <span class="date"><span>1 janvier 2015</span></span>
+</li>
+<li >
+				
+		<div class="post-thumbnail">
+			<a href="http://pierre-giraud.fr/les-liens-externes-expliques-savoir-les-liens-externes/" title="Permaliens vers Les Liens Externes Expliqués : Tout Savoir sur les Liens Externes" rel="bookmark"><img width="55" height="55" src="http://pierre-giraud.fr/wp-content/uploads/2014/05/Liens-Externes-Referencement-55x55.png" class="attachment-tie-small size-tie-small" alt="Les Liens Externes Expliqués : Tout Savoir sur les Liens Externes" title="Les Liens Externes Expliqués : Tout Savoir sur les Liens Externes" srcset="http://pierre-giraud.fr/wp-content/uploads/2014/05/Liens-Externes-Referencement-55x55.png 55w, http://pierre-giraud.fr/wp-content/uploads/2014/05/Liens-Externes-Referencement-150x150.png 150w, http://pierre-giraud.fr/wp-content/uploads/2014/05/Liens-Externes-Referencement-300x300.png 300w, http://pierre-giraud.fr/wp-content/uploads/2014/05/Liens-Externes-Referencement.png 350w" sizes="(max-width: 55px) 100vw, 55px" /><span class="overlay-icon"></span></a>
+		</div><!-- post-thumbnail /-->
+		<h3><a href="http://pierre-giraud.fr/les-liens-externes-expliques-savoir-les-liens-externes/">Les Liens Externes Expliqués : Tout Savoir sur les Liens Externes</a></h3>
+	 <span class="date"><span>1 mai 2014</span></span>
+</li>
+<li >
+				
+		<div class="post-thumbnail">
+			<a href="http://pierre-giraud.fr/google-utilise-200-criteres-classer-les-sites/" title="Permaliens vers Google Utilise 200 Critères pour Classer les Sites !" rel="bookmark"><img width="55" height="55" src="http://pierre-giraud.fr/wp-content/uploads/2014/05/Criteres-Utilises-par-Google-pour-Classer-les-Sites-55x55.png" class="attachment-tie-small size-tie-small" alt="Google Utilise 200 Critères pour Classer les Sites !" title="Google Utilise 200 Critères pour Classer les Sites !" srcset="http://pierre-giraud.fr/wp-content/uploads/2014/05/Criteres-Utilises-par-Google-pour-Classer-les-Sites-55x55.png 55w, http://pierre-giraud.fr/wp-content/uploads/2014/05/Criteres-Utilises-par-Google-pour-Classer-les-Sites-150x150.png 150w, http://pierre-giraud.fr/wp-content/uploads/2014/05/Criteres-Utilises-par-Google-pour-Classer-les-Sites-300x300.png 300w, http://pierre-giraud.fr/wp-content/uploads/2014/05/Criteres-Utilises-par-Google-pour-Classer-les-Sites.png 600w" sizes="(max-width: 55px) 100vw, 55px" /><span class="overlay-icon"></span></a>
+		</div><!-- post-thumbnail /-->
+		<h3><a href="http://pierre-giraud.fr/google-utilise-200-criteres-classer-les-sites/">Google Utilise 200 Critères pour Classer les Sites !</a></h3>
+	 <span class="date"><span>15 mai 2014</span></span>
+</li>
+<li >
+				
+		<div class="post-thumbnail">
+			<a href="http://pierre-giraud.fr/quelle-solution-e-commerce-choisir-prestashop-magento-shopify/" title="Permaliens vers Quelle Solution E-Commerce Choisir : PrestaShop, Magento, Shopify, etc. ?" rel="bookmark"><img width="55" height="55" src="http://pierre-giraud.fr/wp-content/uploads/2014/05/Quelle-Solution-e-commerce-choisir-55x55.png" class="attachment-tie-small size-tie-small" alt="Quelle Solution E-Commerce Choisir : PrestaShop, Magento, Shopify, etc. ?" title="Quelle Solution E-Commerce Choisir : PrestaShop, Magento, Shopify, etc. ?" srcset="http://pierre-giraud.fr/wp-content/uploads/2014/05/Quelle-Solution-e-commerce-choisir-55x55.png 55w, http://pierre-giraud.fr/wp-content/uploads/2014/05/Quelle-Solution-e-commerce-choisir-150x150.png 150w, http://pierre-giraud.fr/wp-content/uploads/2014/05/Quelle-Solution-e-commerce-choisir.png 300w" sizes="(max-width: 55px) 100vw, 55px" /><span class="overlay-icon"></span></a>
+		</div><!-- post-thumbnail /-->
+		<h3><a href="http://pierre-giraud.fr/quelle-solution-e-commerce-choisir-prestashop-magento-shopify/">Quelle Solution E-Commerce Choisir : PrestaShop, Magento, Shopify, etc. ?</a></h3>
+	 <span class="date"><span>1 juin 2014</span></span>
+</li>
+<li >
+				
+		<div class="post-thumbnail">
+			<a href="http://pierre-giraud.fr/comment-voler-les-liens-externes-et-le-classement-de-vos-concurrents/" title="Permaliens vers Comment Voler les Liens Externes et le Classement de vos Concurrents" rel="bookmark"><img width="55" height="55" src="http://pierre-giraud.fr/wp-content/uploads/2014/05/Voler-le-classement-de-ses-concurrents-google-55x55.png" class="attachment-tie-small size-tie-small" alt="Comment Voler les Liens Externes et le Classement de vos Concurrents" title="Comment Voler les Liens Externes et le Classement de vos Concurrents" srcset="http://pierre-giraud.fr/wp-content/uploads/2014/05/Voler-le-classement-de-ses-concurrents-google-55x55.png 55w, http://pierre-giraud.fr/wp-content/uploads/2014/05/Voler-le-classement-de-ses-concurrents-google-150x150.png 150w, http://pierre-giraud.fr/wp-content/uploads/2014/05/Voler-le-classement-de-ses-concurrents-google.png 300w" sizes="(max-width: 55px) 100vw, 55px" /><span class="overlay-icon"></span></a>
+		</div><!-- post-thumbnail /-->
+		<h3><a href="http://pierre-giraud.fr/comment-voler-les-liens-externes-et-le-classement-de-vos-concurrents/">Comment Voler les Liens Externes et le Classement de vos Concurrents</a></h3>
+	 <span class="date"><span>15 juin 2014</span></span>
+</li>
+	
+				</ul>
+		<div class="clear"></div>
+	</div></div><!-- .widget /-->		</div><!-- #third .widget-area -->
+	
+			<div id="footer-fourth" class="footer-widgets-box">
+			<div id="calendar-2" class="footer-widget widget_calendar"><div class="footer-widget-top"><h4>Calendrier des tutoriels</h4></div>
+						<div class="footer-widget-container"><div id="calendar_wrap" class="calendar_wrap"><table id="wp-calendar">
+	<caption>septembre 2020</caption>
+	<thead>
+	<tr>
+		<th scope="col" title="lundi">L</th>
+		<th scope="col" title="mardi">M</th>
+		<th scope="col" title="mercredi">M</th>
+		<th scope="col" title="jeudi">J</th>
+		<th scope="col" title="vendredi">V</th>
+		<th scope="col" title="samedi">S</th>
+		<th scope="col" title="dimanche">D</th>
+	</tr>
+	</thead>
+
+	<tfoot>
+	<tr>
+		<td colspan="3" id="prev"><a href="http://pierre-giraud.fr/2015/01/">&laquo; Jan</a></td>
+		<td class="pad">&nbsp;</td>
+		<td colspan="3" id="next" class="pad">&nbsp;</td>
+	</tr>
+	</tfoot>
+
+	<tbody>
+	<tr>
+		<td colspan="1" class="pad">&nbsp;</td><td>1</td><td>2</td><td>3</td><td>4</td><td>5</td><td>6</td>
+	</tr>
+	<tr>
+		<td>7</td><td>8</td><td>9</td><td>10</td><td>11</td><td>12</td><td>13</td>
+	</tr>
+	<tr>
+		<td>14</td><td>15</td><td>16</td><td>17</td><td>18</td><td>19</td><td>20</td>
+	</tr>
+	<tr>
+		<td>21</td><td>22</td><td>23</td><td>24</td><td>25</td><td>26</td><td>27</td>
+	</tr>
+	<tr>
+		<td>28</td><td>29</td><td id="today">30</td>
+		<td class="pad" colspan="4">&nbsp;</td>
+	</tr>
+	</tbody>
+	</table></div></div></div><!-- .widget /-->		</div><!-- #fourth .widget-area -->
+		
+	</div><!-- #footer-widget-area -->
+	<div class="clear"></div>
+</footer><!-- .Footer /-->
+				
+<div class="clear"></div>
+<div class="footer-bottom">
+	<div class="container">
+		<div class="alignright">
+					</div>
+				<div class="social-icons icon_16">
+		<a class="ttip" title="Rss" href="http://pierre-giraud.fr/feed/" target="_blank"><i class="tieicon-rss"></i></a><a class="ttip" title="Google+" href="https://plus.google.com/102507737620790195585/posts" target="_blank"><i class="tieicon-gplus"></i></a><a class="ttip" title="Facebook" href="https://www.facebook.com/PierreGiraud.fr" target="_blank"><i class="tieicon-facebook"></i></a><a class="ttip" title="Twitter" href="https://twitter.com/pierregird" target="_blank"><i class="tieicon-twitter"></i></a><a class="ttip" title="LinkedIn" href="http://www.linkedin.com/pub/pierre-giraud/55/512/682" target="_blank"><i class="tieicon-linkedin"></i></a><a class="ttip" title="Youtube" href="https://www.youtube.com/channel/UCsFoQ4A9CZbF3qag317uZZQ" target="_blank"><i class="tieicon-youtube"></i></a>	</div>
+
+		
+		<div class="alignleft">
+					</div>
+		<div class="clear"></div>
+	</div><!-- .Container -->
+</div><!-- .Footer bottom -->
+	<div id="topcontrol" class="tieicon-up-open" title="Revenir en haut de la page"></div>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var wpcf7 = {"apiSettings":{"root":"http:\/\/pierre-giraud.fr\/wp-json\/contact-form-7\/v1","namespace":"contact-form-7\/v1"},"cached":"1"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://pierre-giraud.fr/wp-content/plugins/contact-form-7/includes/js/scripts.js?ver=5.1.6'></script>
+<script type='text/javascript' src='http://pierre-giraud.fr/wp-content/themes/sahifa/js/tie-scripts.js?ver=5.3.2'></script>
+<script type='text/javascript' src='http://pierre-giraud.fr/wp-includes/js/wp-embed.min.js?ver=5.3.2'></script>
+</body>
+</html>�\�J�      _t�_t�B+?K_t��   R    :http://pierre-giraud.fr/creer-un-cv-personnalise-et-interactif-en-html-et-en-css/ necko:classified 1 strongly-framed 1 request-method GET response-head HTTP/1.1 200 OK
+Server: nginx
+Date: Wed, 30 Sep 2020 18:52:19 GMT
+Content-Type: text/html; charset=UTF-8
+Link: <http://pierre-giraud.fr/wp-json/>; rel="https://api.w.org/", <http://pierre-giraud.fr/?p=575>; rel=shortlink
+alt-svc: quic=":443"; ma=86400; v="43,39"
+Host-Header: 5d77dd967d63c3104bced1db0cace49c
+X-Proxy-Cache: MISS
+ original-response-headers Server: nginx
+Date: Wed, 30 Sep 2020 18:52:19 GMT
+Content-Type: text/html; charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Link: <http://pierre-giraud.fr/wp-json/>; rel="https://api.w.org/", <http://pierre-giraud.fr/?p=575>; rel=shortlink
+alt-svc: quic=":443"; ma=86400; v="43,39"
+Host-Header: 5d77dd967d63c3104bced1db0cace49c
+X-Proxy-Cache: MISS
+ ctid 1 uncompressed-len 0 predictor::resource-count 87 predictor::http://pierre-giraud.fr/wp-includes/css/dist/block-library/style.min.css?ver=5.3.2 1,1,1601491938,8192 predictor::http://pierre-giraud.fr/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=5.1.6 1,1,1601491938,8192 predictor::http://pierre-giraud.fr/wp-content/themes/sahifa/style.css?ver=5.3.2 1,1,1601491938,8192 predictor::http://fonts.googleapis.com/css?family=Droid+Sans%3Aregular%2C700&subset=latin%2Clatin-ext&ver=5.3.2 1,1,1601491938,8192 predictor::http://pierre-giraud.fr/wp-includes/js/jquery/jquery.js?ver=1.12.4-wp 1,2,1601494801,12288 predictor::http://pierre-giraud.fr/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1 1,2,1601494801,12288 predictor::http://pierre-giraud.fr/wp-content/uploads/2014/04/Banniere_Logo_Pierre_Giraud.png 1,1,1601491938,8193 predictor::http://platform.linkedin.com/in.js 1,2,1601494801,12288 predictor::http://pierre-giraud.fr/wp-content/uploads/2015/01/CV1.png 1,1,1601491938,8193 predictor::http://pierre-giraud.fr/wp-content/uploads/2015/01/CV2.png 1,1,1601491938,8193 predictor::http://pierre-giraud.fr/wp-content/uploads/2015/01/CV3.png 1,1,1601491938,8193 predictor::http://pierre-giraud.fr/wp-content/uploads/2015/01/CV4.png 1,1,1601491938,8193 predictor::http://pierre-giraud.fr/wp-content/uploads/2015/01/CV5v2.png 1,1,1601491938,8193 predictor::http://pierre-giraud.fr/wp-content/uploads/2015/01/CV6.png 1,1,1601491938,8193 predictor::http://pierre-giraud.fr/wp-content/uploads/2015/01/CV7.png 1,1,1601491938,8193 predictor::http://pierre-giraud.fr/wp-content/uploads/2015/01/CV8.png 1,1,1601491938,8193 predictor::http://pierre-giraud.fr/wp-content/uploads/2015/01/CV9.png 1,1,1601491938,8193 predictor::http://pierre-giraud.fr/wp-content/uploads/2015/01/CV10.png 1,1,1601491938,8193 predictor::http://pierre-giraud.fr/wp-content/uploads/2015/01/CV111.png 1,1,1601491938,8193 predictor::http://pierre-giraud.fr/wp-content/uploads/2015/01/CV121.png 1,1,1601491938,8193 predictor::http://pierre-giraud.fr/wp-content/uploads/2015/01/CV13.png 1,1,1601491938,8193 predictor::http://pierre-giraud.fr/wp-content/uploads/2015/01/CV14.png 1,1,1601491938,8193 predictor::http://pierre-giraud.fr/wp-content/uploads/2015/01/CV15.png 1,1,1601491938,8193 predictor::http://pierre-giraud.fr/wp-content/uploads/2015/01/CV16.png 1,1,1601491938,8193 predictor::http://pierre-giraud.fr/wp-content/uploads/2015/01/CV17.png 1,1,1601491938,8193 predictor::http://pierre-giraud.fr/wp-content/uploads/2015/01/CV18.png 1,1,1601491938,8193 predictor::http://pierre-giraud.fr/wp-content/uploads/2015/01/CV19.png 1,1,1601491938,8193 predictor::http://pierre-giraud.fr/wp-content/uploads/2015/01/CV20.png 1,1,1601491938,8193 predictor::http://pierre-giraud.fr/wp-content/uploads/2015/01/CV21.png 1,1,1601491938,8193 predictor::http://pierre-giraud.fr/wp-content/uploads/2015/01/CV22.png 1,1,1601491938,8193 predictor::http://pierre-giraud.fr/wp-content/uploads/2015/01/CV23.png 1,1,1601491938,8193 predictor::http://pierre-giraud.fr/wp-content/uploads/2015/01/CV24.png 1,1,1601491938,8193 predictor::http://pierre-giraud.fr/wp-content/uploads/2015/01/CV25.png 1,1,1601491938,8193 predictor::http://pierre-giraud.fr/wp-content/uploads/2015/01/CV26.png 1,1,1601491938,8193 predictor::http://pierre-giraud.fr/wp-content/uploads/2015/01/CV27.png 1,1,1601491938,8193 predictor::http://pierre-giraud.fr/wp-content/uploads/2015/01/CV28.png 1,1,1601491938,8193 predictor::http://pierre-giraud.fr/wp-content/uploads/2015/01/CV29.png 1,1,1601491938,8193 predictor::http://pierre-giraud.fr/wp-content/uploads/2015/01/CV31.png 1,1,1601491938,8193 predictor::http://pierre-giraud.fr/wp-content/uploads/2015/01/CV32.png 1,1,1601491938,8193 predictor::http://1.gravatar.com/avatar/7bee5b1b74761f07d9d5b43627fb5704?s=45&d=monsterid&r=g 1,1,1601491938,8192 predictor::http://0.gravatar.com/avatar/3d4dced1142f11372f320dbedb7857b8?s=45&d=monsterid&r=g 1,1,1601491938,8192 predictor::http://1.gravatar.com/avatar/46ee18cfd7ab5a0c7d88647480ce210f?s=45&d=monsterid&r=g 1,1,1601491938,8192 net-response-time-onstart 952 net-response-time-onstop 1238 predictor::https://www.paypal.com/en_US/i/scr/pixel.gif 1,2,1601494801,12288 predictor::http://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js 1,2,1601494801,12288 predictor::http://pierre-giraud.fr/wp-content/uploads/2014/04/Avatar-Pierre-Giraud.jpg 1,1,1601491938,8193 predictor::https://ua.siteground.com/img/banners/general/aqua/250x250.gif 1,1,1601491938,8193 predictor::http://bluehost-cdn.com/media/partner/images/cookmemaybe/300x250/bh-ppc-banners-dynamic-300x250.png 1,1,1601491938,8192 predictor::http://pierre-giraud.fr/wp-content/uploads/2014/11/Cours-Complet-HTML-CSS-55x55.png 1,1,1601491938,8193 predictor::http://pierre-giraud.fr/wp-content/uploads/2014/09/Hebergement-web-Prestashop-55x55.jpg 1,1,1601491938,8193 predictor::http://pierre-giraud.fr/wp-content/uploads/2014/05/Installer-PrestaShop-en-Local-55x55.png 1,1,1601491938,8193 predictor::http://pierre-giraud.fr/wp-content/uploads/2014/11/Cours-Complet-PhP-MySQL-55x55.png 1,1,1601491938,8193 predictor::http://pierre-giraud.fr/wp-content/uploads/2014/11/Menu-Horizontal-HTML-CSS-55x55.png 1,1,1601491938,8193 predictor::http://pierre-giraud.fr/wp-content/uploads/2014/04/Referencement-Google-2014-55x55.png 1,1,1601491938,8193 predictor::http://pierre-giraud.fr/wp-content/uploads/2014/05/Liens-Externes-Referencement-55x55.png 1,1,1601491938,8193 predictor::http://pierre-giraud.fr/wp-content/uploads/2014/05/Criteres-Utilises-par-Google-pour-Classer-les-Sites-55x55.png 1,1,1601491938,8193 predictor::http://pierre-giraud.fr/wp-content/uploads/2014/05/Quelle-Solution-e-commerce-choisir-55x55.png 1,1,1601491938,8193 predictor::http://pierre-giraud.fr/wp-content/uploads/2014/05/Voler-le-classement-de-ses-concurrents-google-55x55.png 1,1,1601491938,8193 predictor::http://pierre-giraud.fr/wp-content/plugins/contact-form-7/includes/js/scripts.js?ver=5.1.6 1,2,1601494801,12288 predictor::http://pierre-giraud.fr/wp-content/themes/sahifa/js/tie-scripts.js?ver=5.3.2 1,2,1601494801,12288 predictor::http://pierre-giraud.fr/wp-includes/js/wp-embed.min.js?ver=5.3.2 1,2,1601494801,12288 predictor::http://pierre-giraud.fr/wp-includes/js/wp-emoji-release.min.js?ver=5.3.2 1,2,1601494801,12288 predictor::http://pierre-giraud.fr/wp-content/themes/sahifa/images/patterns/body-bg7.png 1,1,1601491938,8193 predictor::http://www.google-analytics.com/analytics.js 1,2,1601494801,12288 predictor::http://pierre-giraud.fr/wp-content/themes/sahifa/images/main-menu-bg.png 1,1,1601491938,8192 predictor::http://pierre-giraud.fr/wp-content/themes/sahifa/images/home.png 1,1,1601491938,8192 predictor::https://fonts.gstatic.com/s/droidsans/v12/SlGVmQWMvZQIdix7AFxXkHNSbQ.woff2 1,1,1601491938,8192 predictor::http://pierre-giraud.fr/wp-content/themes/sahifa/fonts/tiefontello.woff?88026028 1,1,1601491938,8192 predictor::http://pierre-giraud.fr/wp-content/themes/sahifa/fonts/BebasNeue-webfont.woff 1,1,1601491938,8192 predictor::https://www.paypal.com/fr_FR/FR/i/btn/btn_donate_LG.gif 1,2,1601494801,12288 predictor::http://pierre-giraud.fr/wp-content/themes/sahifa/images/stripe.png 1,1,1601491938,8192 predictor::https://apis.google.com/js/plusone.js 1,2,1601494801,12289 predictor::https://fonts.gstatic.com/s/droidsans/v12/SlGWmQWMvZQIdix7AFxXmMh3eDs1Zw.woff2 1,1,1601491938,8192 predictor::https://apis.google.com/_/scs/apps-static/_/js/k=oz.gapi.fr.f-OH9YC7QGM.O/m=plus,plusone/rt=j/sv=1/d=1/ed=1/am=wQE/rs=AGLTcCOEbXjupqohD4YYn3iuWK9Fff2Dpw/cb=gapi.loaded_0 1,2,1601494801,12288 predictor::https://apis.google.com/_/scs/apps-static/_/js/k=oz.gapi.fr.f-OH9YC7QGM.O/m=auth/exm=plus,plusone/rt=j/sv=1/d=1/ed=1/am=wQE/rs=AGLTcCOEbXjupqohD4YYn3iuWK9Fff2Dpw/cb=gapi.loaded_1 1,2,1601494801,12288 predictor::https://pagead2.googlesyndication.com/pagead/js/r20200924/r20190131/show_ads_impl_fy2019.js 1,2,1601494801,12288 predictor::https://partner.googleadservices.com/gampad/cookie.js?domain=pierre-giraud.fr&callback=_gfp_s_&client=ca-pub-8384266137058067 1,1,1601491938,8192 predictor::http://connect.facebook.net/en/all.js#xfbml=1 1,2,1601494801,12288 predictor::http://platform.twitter.com/widgets.js 1,2,1601494801,12288 predictor::https://adservice.google.tn/adsid/integrator.js?domain=pierre-giraud.fr 1,2,1601494801,12288 predictor::https://adservice.google.com/adsid/integrator.js?domain=pierre-giraud.fr 1,2,1601494801,12288 predictor::https://www.googletagservices.com/activeview/js/current/osd.js?cb=%2Fr20100101 1,2,1601494801,12288 predictor::https://tpc.googlesyndication.com/sodar/sodar2.js 1,2,1601494801,12288 predictor::https://connect.facebook.net/en_US/all.js?hash=dfcab33c2cc533c62b2e028a21e64c39 1,2,1601494801,12288 predictor::https://pagead2.googlesyndication.com/pagead/js/r20200924/r20190131/reactive_library_fy2019.js 1,2,1601494801,12288 predictor::https://platform.twitter.com/js/button.e24f3bcdec527b80b9c80e88b62047c3.js 1,2,1601494801,12288 predictor::https://partner.googleadservices.com/gampad/cookie.js?domain=pierre-giraud.fr&callback=_gfp_s_&client=ca-pub-8384266137058067&cookie=ID%3D8d5a9571b3583d64%3AT%3D1601491949%3AS%3DALNI_MamCIyzPd2hAtwU2K4l_riMiT-wMQ 1,1,1601494801,4096 predictor::http://pagead2.googlesyndication.com/pagead/gen_204?id=ama_success&c=3&wpc=ca-pub-8384266137058067&warn=13&w=1294&h=630&eatf=true&reatf=true&a=6%2C1%2C5%2C7&apv=20200929_201332&afm=0&as_count=3&d_count=0&ng_count=0&am_count=3&atf_count=1&mdns=0.052&alldns=0.084&allp=97&fd=(0%2C27%2C5)%2C(1%2C15%2C2)%2C(2%2C27%2C1)&pgh=21326&su=pierre-giraud.fr&r=0.1 1,1,1601494801,4096  5�
